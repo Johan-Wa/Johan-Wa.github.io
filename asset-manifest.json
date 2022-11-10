@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.34bd86c3.css",
+    "main.js": "/static/js/main.b6919849.js",
+    "static/js/787.ad5b5d77.chunk.js": "/static/js/787.ad5b5d77.chunk.js",
+    "static/media/fumigaciones.png": "/static/media/fumigaciones.eb7104beb992b5b79ea4.png",
+    "static/media/web_tienda.png": "/static/media/web_tienda.6275d41d79f573530c09.png",
+    "static/media/background.jpg": "/static/media/background.9eee7df0463f95b20f23.jpg",
+    "static/media/web_inicio.png": "/static/media/web_inicio.ada3f0e3cc6a696682ae.png",
+    "static/media/picture.jpg": "/static/media/picture.69b7edb281a223626380.jpg",
+    "static/media/picstory_index.png": "/static/media/picstory_index.3eaa588b40e49feee5ab.png",
+    "static/media/collab_1.png": "/static/media/collab_1.b74168aaf7459b8290f2.png",
+    "static/media/storyteller_1.png": "/static/media/storyteller_1.c56469d27d5533f36d03.png",
+    "static/media/storyteller_2.png": "/static/media/storyteller_2.98642f1e01f7736f2182.png",
+    "static/media/deepnote_1.png": "/static/media/deepnote_1.7a9e9b17b0c055d50761.png",
+    "static/media/collab_2.png": "/static/media/collab_2.ddb046bf109e56d2f31f.png",
+    "static/media/titanic_tableu.png": "/static/media/titanic_tableu.afddbd78a4b44aef26ba.png",
+    "static/media/picstory_login.png": "/static/media/picstory_login.4d0b539bb824c44051a5.png",
+    "static/media/deepnote_2.png": "/static/media/deepnote_2.fb0739200805ab7fadf9.png",
+    "static/media/logo.png": "/static/media/logo.ccb0292e94e8d68398e8.png",
+    "static/media/python.png": "/static/media/python.6a5cbc319ab3ddf8ef92.png",
+    "static/media/java.png": "/static/media/java.ddf8676bd569fe01ab44.png",
+    "static/media/sql.png": "/static/media/sql.64b3eb63f995c0da35b3.png",
+    "static/media/godot.png": "/static/media/godot.df7634435da895af6c76.png",
+    "static/media/r.png": "/static/media/r.7a75d60a1ca6d1a6c922.png",
+    "static/media/menu.png": "/static/media/menu.e57af212358815b412d1.png",
+    "static/media/github.png": "/static/media/github.a855c3975c028d8069f5.png",
+    "static/media/css.png": "/static/media/css.463e319bad8e0edf1ef7.png",
+    "static/media/linkedin.png": "/static/media/linkedin.6892b3ae328c7a1e055f.png",
+    "static/media/html.png": "/static/media/html.ff3cf75e3b7cbb4ea77c.png",
+    "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/platzi.webp": "/static/media/platzi.1b131acef100198fe925.webp",
+    "index.html": "/index.html",
+    "main.34bd86c3.css.map": "/static/css/main.34bd86c3.css.map",
+    "main.b6919849.js.map": "/static/js/main.b6919849.js.map",
+    "787.ad5b5d77.chunk.js.map": "/static/js/787.ad5b5d77.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34bd86c3.css",
+    "static/js/main.b6919849.js"
+  ]
+}
