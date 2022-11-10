@@ -1,0 +1,31 @@
+.foot-content{
+    color:blanchedalmond;
+    text-align: center;
+    align-items: center;
+}
+
+.contact{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding: auto;
+    margin-bottom: 3vh;
+}
+
+.contact div{
+    width: 30%;
+    padding: 3%;
+}
+
+.contact div h3{
+    border-bottom: solid 2px blanchedalmond;
+    padding-bottom: 5%;
+}
+
+@media screen and (max-width:500px) {
+    .contact{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+}
