@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.34bd86c3.css",
-    "main.js": "/static/js/main.b6919849.js",
+    "main.css": "/static/css/main.1cbbd773.css",
+    "main.js": "/static/js/main.7e34c83c.js",
     "static/js/787.ad5b5d77.chunk.js": "/static/js/787.ad5b5d77.chunk.js",
     "static/media/fumigaciones.png": "/static/media/fumigaciones.eb7104beb992b5b79ea4.png",
     "static/media/web_tienda.png": "/static/media/web_tienda.6275d41d79f573530c09.png",
-    "static/media/background.jpg": "/static/media/background.9eee7df0463f95b20f23.jpg",
     "static/media/web_inicio.png": "/static/media/web_inicio.ada3f0e3cc6a696682ae.png",
     "static/media/picture.jpg": "/static/media/picture.69b7edb281a223626380.jpg",
+    "static/media/background.jpg": "/static/media/background.71783d441f1ad8a85fae.jpg",
     "static/media/picstory_index.png": "/static/media/picstory_index.3eaa588b40e49feee5ab.png",
     "static/media/collab_1.png": "/static/media/collab_1.b74168aaf7459b8290f2.png",
     "static/media/storyteller_1.png": "/static/media/storyteller_1.c56469d27d5533f36d03.png",
@@ -31,12 +31,12 @@
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/platzi.webp": "/static/media/platzi.1b131acef100198fe925.webp",
     "index.html": "/index.html",
-    "main.34bd86c3.css.map": "/static/css/main.34bd86c3.css.map",
-    "main.b6919849.js.map": "/static/js/main.b6919849.js.map",
+    "main.1cbbd773.css.map": "/static/css/main.1cbbd773.css.map",
+    "main.7e34c83c.js.map": "/static/js/main.7e34c83c.js.map",
     "787.ad5b5d77.chunk.js.map": "/static/js/787.ad5b5d77.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34bd86c3.css",
-    "static/js/main.b6919849.js"
+    "static/css/main.1cbbd773.css",
+    "static/js/main.7e34c83c.js"
   ]
 }
