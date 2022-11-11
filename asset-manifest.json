@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1cbbd773.css",
-    "main.js": "/static/js/main.7e34c83c.js",
+    "main.js": "/static/js/main.b7ce8ca6.js",
     "static/js/787.ad5b5d77.chunk.js": "/static/js/787.ad5b5d77.chunk.js",
     "static/media/fumigaciones.png": "/static/media/fumigaciones.eb7104beb992b5b79ea4.png",
     "static/media/web_tienda.png": "/static/media/web_tienda.6275d41d79f573530c09.png",
@@ -32,11 +32,11 @@
     "static/media/platzi.webp": "/static/media/platzi.1b131acef100198fe925.webp",
     "index.html": "/index.html",
     "main.1cbbd773.css.map": "/static/css/main.1cbbd773.css.map",
-    "main.7e34c83c.js.map": "/static/js/main.7e34c83c.js.map",
+    "main.b7ce8ca6.js.map": "/static/js/main.b7ce8ca6.js.map",
     "787.ad5b5d77.chunk.js.map": "/static/js/787.ad5b5d77.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1cbbd773.css",
-    "static/js/main.7e34c83c.js"
+    "static/js/main.b7ce8ca6.js"
   ]
 }
