@@ -5,9 +5,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+#pre{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:absolute;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+}
+#pre div{
+  background-color: blanchedalmond;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  color: black;
+  transition-duration: 3s;
+  font-size: 50px;
+  text-align:center;
+  animation: rotate 5s linear infinite;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@keyframes rotate {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
+  }
+  
 }
