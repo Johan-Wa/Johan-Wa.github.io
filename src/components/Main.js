@@ -37,15 +37,15 @@ class Main extends Component {
                         <h5>Programador junior</h5>
                         <p>
                             Soy un programador junior, enfocado principalmente en la ciencia de datos
-                            y en el desarrolo backend.
+                            y en el desarrollo back-end.
                         </p>
                         <p>
-                            Apasionado por la ciencia y la tecnologia, opte por aprender programacion con
-                            dos propositos en en mente:
+                            Apasionado por la ciencia y la tecnología, opte por aprender programación con
+                            dos propósitos en en mente:
                             <ol>
                                 <li>
                                     Desarrollar herramientas de software, que permitan el crecimiento y mejora
-                                    de diferentes agentes, dentro de las dinamicas sociales y empresariales 
+                                    de diferentes agentes, dentro de las dinámicas sociales y empresariales 
                                     de mi region.
                                 </li>
                                 <li>
@@ -66,7 +66,7 @@ class Main extends Component {
                             <div className='Hide'>
                                 <time>2014-2018</time>
                                 <p>
-                                    Estudios de biologia en la universidad icesi.
+                                    Estudios de biología en la universidad Icesi. 
                                 </p>
                                 
                             </div>
@@ -75,8 +75,8 @@ class Main extends Component {
                             <div className='Hide'>
                                 <time>2018-2020</time>
                                 <p>
-                                    Cambio de universidad a la universidad javeriana de cali,
-                                    e inicio en conceptos de programacion tanto por la carrera
+                                    Cambio de universidad a la universidad Javeriana de cali,
+                                    e inicio en conceptos de programación tanto por la carrera
                                     como de manera independiente.
                                 </p>
                                 
@@ -86,8 +86,8 @@ class Main extends Component {
                             <div className='Hide'>
                                 <time>2020</time>
                                 <p>
-                                    Empiezo a trabajar, realizando mantenimiento y actualizacion de computadoras,
-                                    y empiezo a involucrarme mas en la programacion. 
+                                    Empiezo a trabajar, realizando mantenimiento y actualización de computadoras,
+                                    y empiezo a involucrarme mas en la programación. 
                                 </p>
                             </div>
                         </li>
@@ -107,7 +107,7 @@ class Main extends Component {
                                     Concluyo la escuela de back-end con python en platzi,
                                     y el 80% de la carrera de ciencia de datos.
                                     Comienzo a perfilarme como desarrollador en busca de un empleo 
-                                    en el area de la tecnologia.
+                                    en el area de la tecnología.
                                 </p>
                             </div>
                         </li>

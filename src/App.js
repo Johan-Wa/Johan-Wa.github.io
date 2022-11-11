@@ -80,7 +80,7 @@ function App() {
           href="#tech"
           rel="noopener noreferrer"
         >
-          Tecnologias
+          Tecnologías
         </a>
         <a
           className="App-link"

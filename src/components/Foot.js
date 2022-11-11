@@ -10,7 +10,7 @@ class Foot extends Component {
                     <div>
                         <h3>Correos</h3>
                         <p>johandavidgp@gmail.com</p>
-                        <p>johandavidgp@gmail.com</p>
+                        <p>jd.syntax.programing@gmail.com</p>
                     </div>
                     <div>
                         <h3>Telefono</h3>

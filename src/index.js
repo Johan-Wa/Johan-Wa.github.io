@@ -12,8 +12,8 @@ window.onload = function(){
   var body = this.document.querySelector('body');
   var preloader = this.document.getElementById('pre');
   setTimeout(function(){
-    preloader.style.opacity='50%'
     preloader.style.opacity='0';
+    preloader.style.display='none';
     body.style.display='flex';
     body.style.overflow='scroll';
     console.log(preloader);
