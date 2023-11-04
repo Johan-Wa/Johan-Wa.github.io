@@ -1,0 +1,553 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Porfolio - Johan David Wallens</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <!-- Header Menu-->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">Johan</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home" onclick="select()">HOME</a></li>
+                    <li><a href="#aboutme" onclick="select()">ABOUT ME</a></li>
+                    <li><a href="#skills" onclick="select()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="select()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="select()">PORTFOLIO</a></li>
+                    <li><a href="#contact" onclick="select()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="showHiddeMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECTION HOME-->
+    <section id="home" class="home">
+        <div class="banner-contain">
+            <div class="img-container">
+                <img src="img/johan.png" alt="">
+            </div>
+            <h1>Johan David Wallens</h1>
+            <h2>Python developer</h2>
+            <div class="social">
+                <a href="#">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-regular fa-chart-bar"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION ABOIUT ME-->
+    <section class="aboutme" id="aboutme">
+        <div class="section-contain">
+            <h2>About Me</h2>
+            <p><span>Hi, my name is Johan David Wallens.</span> I am a student of Biology and software Engineering, self-
+                taught person. Currently in constant leaarning, in
+                science and tecnology, with particular interest
+                indata science and machine learning. With
+                experience inoperating systems such as linux and
+                windows, installation and maintenance of
+                hardware and software installation.</p>
+            <div class="row">
+                <!-- Personal information-->
+                <div class="col">
+                    <h3>Personal Information</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthday</strong>
+                            28-06-1994
+                        </li>
+                        <li>
+                            <strong>Phone</strong>
+                            +57 3507475680
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            johandavidgp@gmail.com
+                        </li>
+                        <li>
+                            <strong>City</strong>
+                            Cali, Valle del cauca, Colombia
+                        </li>
+                        <li>
+                            <strong>Profile</strong>
+                            Back'end developer
+                        </li>
+                    </ul>
+                </div>
+                <!-- Hobbies -->
+                <div class="col">
+                    <h3>Hobbies</h3>
+                    <div class="hobbies-container">
+                        <div class="hobbie">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAMES</span>
+                        </div>
+                        <div class="hobbie">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>TREKING</span>
+                        </div>
+                        <div class="hobbie">
+                            <i class="fa-solid fa-flask"></i>
+                            <span>SCIENCE</span>
+                        </div>
+                        <div class="hobbie">
+                            <i class="fa-solid fa-pen-fancy"></i>
+                            <span>POETRY</span>
+                        </div>
+                        <div class="hobbie">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="hobbie">
+                            <i class="fa-solid fa-book"></i>
+                            <span>READING</span>
+                        </div>
+                        <div class="hobbie">
+                            <i class="fa-brands fa-linux"></i>
+                            <span>lINUX</span>
+                        </div>
+                        <div class="hobbie">
+                            <i class="fa-solid fa-person-swimming"></i>
+                            <span>SWIMMING</span>
+                        </div>
+                        <div class="hobbie">
+                            <i class="fa-solid fa-tents"></i>
+                            <span>CAMPING</span>
+                        </div>
+                        <div class="hobbie">
+                            <i class="fa-solid fa-pencil"></i>
+                            <span>DRAWING</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="src/CV_johan.pdf" target="blank">
+                    View CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </a>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECTION SKILLS -->
+    <section id="skills" class="skills">
+        <div class="section-contain">
+            <h2>Skills</h2>
+            <div class="row">
+                <!-- Technical Skill-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>91%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Godot</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Inkscape, Photoshop, Gimp & Krita</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>69%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>kottlin</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>35%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Tableau</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>68%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Git & Github</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>72%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Terminal</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Bash</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>69%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Docker</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- Professional Skills-->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunication</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Teamwork</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>98%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Strategic Thinking</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>82%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Leadership</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>88%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Active Learning</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>97%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="section-contain">
+            <h2>Curriculum</h2>
+            <div class="row">
+                <div class="col left">
+                    <h3>Learning</h3>
+                    <div class="item left-i">
+                        <h4>Server Management</h4>
+                        <span class="school">platzi</span>
+                        <span class="date">2023</span>
+                        <p>Management of web server, like ubuntu server and redhat enterprise.</p>
+                        <div class="conector-left">
+                            <div class="circle-left"></div>
+                        </div>
+                    </div>
+                    <div class="item left-i">
+                        <h4>Back'end Development</h4>
+                        <span class="school">platzi</span>
+                        <span class="date">2022</span>
+                        <p>Back'end development, using freameworks such django, FastApi and Flask</p>
+                        <div class="conector-left">
+                            <div class="circle-left"></div>
+                        </div>
+                    </div>
+                    <div class="item left-i">
+                        <h4>Data Science</h4>
+                        <span class="school">platzi</span>
+                        <span class="date">in process</span>
+                        <p>Data science, using jupyther notebooks, and libraries such pandas, matplotlip, numpy, etc...</p>
+                        <div class="conector-left">
+                            <div class="circle-left"></div>
+                        </div>
+                    </div>
+                    <div class="item left-i">
+                        <h4>Biology</h4>
+                        <span class="school">Pontificia Universidad Javeriana, Cali</span>
+                        <span class="date">2018 (paused)</span>
+                        <p>Student of biology, focused in the study of bats and their environment.</p>
+                            <div class="conector-left">
+                                <div class="circle-left"></div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col right">
+                    <h3>Jobs</h3>
+                    <div class="item right-i">
+                        <h4>Logistic Asistant</h4>
+                        <span class="school">BSS</span>
+                        <span class="date">Actually</span>
+                        <p>load and unload of mercancy
+                            and micelaneus trades.</p>
+                        <div class="conector-right">
+                            <div class="circle-right"></div>
+                        </div>
+                    </div>
+                    <div class="item right-i">
+                        <h4>Python developer</h4>
+                        <span class="school">Freelance</span>
+                        <span class="date">Actually</span>
+                        <p>Development in python, click apps, web aplications
+                            GUI interfaces, and utility scripts.
+                        </p>
+                        <div class="conector-right">
+                            <div class="circle-right"></div>
+                        </div>
+                    </div>
+                    <div class="item right-i">
+                        <h4>Computer Repair and Maintenance</h4>
+                        <span class="school">Independent Contrator</span>
+                        <span class="date">Actually</span>
+                        <p>Software installation and
+                            hardware maintenance.</p>
+                        <div class="conector-right">
+                            <div class="circle-right"></div>
+                        </div>
+                    </div>
+                    <div class="item right-i">
+                        <h4>Biosafety Manager</h4>
+                        <span class="school">Pontificia Universidad Javeriana, Cali</span>
+                        <span class="date">August 2021 - February 2022</span>
+                        <p>Manage awareness campaigns,
+                            and ensure compliance with
+                            biosafety standars.</p>
+                            <div class="conector-right">
+                                <div class="circle-right"></div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION PORTFOLIO -->
+    <section class="portfolio" id="portfolio">
+        <div class="section-contain">
+            <h2>Portfolio</h2>
+            <div class="categories" id="categories">
+                <a href="#" class="active">All</a>
+                <a href="#">Web</a>
+                <a href="#">Games</a>
+                <a href="#">Scripts</a>
+                <a href="#">Statistics</a>
+                <a href="#">Apps</a>
+            </div>
+            <div class="projects">
+                <div class="grid" id="grid">
+                    <div class="item"
+                        data-categories="web"
+                        data-description="Social web, developed with djando, Bootstrap and HTML"
+                    >
+                    
+                        <div class="item-contenido">
+                            <img src="img/picstory.png">
+                        </div>
+                    </div>
+                    <div class="item"
+                        data-categories="apps"
+                        data-description="GUI app the generate curriculumsp, developed with python."
+                    >
+                        <div class="item-contenido">
+                            <img src="img/cv_creator.png">
+                        </div>
+                    </div>
+                    <div class="item"
+                        data-categories="games"
+                        data-description="A simple game, made in godot engine with GDScript language."
+                    >
+                        <div class="item-contenido">
+                            <img src="img/arkanet.png">
+                        </div>
+                    </div>
+                    <div class="item"
+                        data-categories="statistics"
+                        data-description="A parametric estimation graph, made in jupyter notebooks."
+                    >
+                        <div class="item-contenido">
+                            <img src="img/estimacion_parametrica.png">
+                        </div>
+                    </div>
+                    <div class="item" 
+                        data-categories="scripts"
+                        data-description="A simple escript that delaim a srandonly poem."
+                    >
+                        <div class="item-contenido">
+                            <img src="img/poemary.png">
+                        </div>
+                    </div>
+                    <div class="item" 
+                        data-categories="scripts"
+                        data-description="A simple script that move media files into a directori and compress they."
+                    >
+                        <div class="item-contenido">
+                            <img src="img/movefiles.png">
+                        </div>
+                    </div>
+                    <div class="item"
+                        data-categories="statistics"
+                        data-description="Simetric data graph, made in jupyter notebooks"
+                    >
+                        <div class="item-contenido">
+                            <img src="img/datos_simetricos.png">
+                        </div>
+                    </div>
+                    <div class="item"
+                        data-categories="apps"
+                        data-description="A conosole application that simulates a sells app, with database (sql,python)."
+                    >
+                        <div class="item-contenido">
+                            <img src="img/sells_simulator.png">
+                        </div>
+                    </div>
+                    <div class="item"
+                        data-categories="web"
+                        data-description="My personal web and curriculum, with a responsive design, developed with HTML, CSS and Javascript."
+                    >
+                        <div class="item-contenido">
+                            <img src="img/johan-wa.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-overlay" id="grid-overlay">
+                    <div class="img-container">
+                        <button id="btn-close-popup"><i class="fa-solid fa-xmark"></i></button>
+                        <img src="" alt="">
+                    </div>
+                    <p class="description"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION CONTACT -->
+    <section class="contact" id="contact">
+        <div class="section-contain">
+            <h2>Contact</h2>
+            <!-- Form -->
+            <div class="form">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Phone">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Subject">
+                <textarea cols="30" rows="10" placeholder="Message"></textarea>
+                <button type="submit">
+                    Send Message
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <span class="overlay"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <a href="#home" class="up">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="social">
+            <a href="#">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="#">
+                <i class="fa-regular fa-envelope"></i>
+            </a>
+            <a href="#">
+                <i class="fa-regular fa-chart-bar"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-telegram"></i>
+            </a>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+<script src="src/scripts.js"></script>
+</html>
