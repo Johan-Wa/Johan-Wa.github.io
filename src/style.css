@@ -730,6 +730,9 @@ footer .social a{
     font-size: 30px;
     transition: .3s;
 }
+footer .social a:hover{
+    color: #1CB698;
+}
 footer .up{
     display: block;
     text-align: center;
