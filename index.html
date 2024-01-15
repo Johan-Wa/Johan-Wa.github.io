@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,542 +14,1559 @@
             <div class="logo">
                 <a href="#">Johan</a>
             </div>
-            <nav id="nav">
-                <ul>
-                    <li><a href="#home" onclick="select()">HOME</a></li>
-                    <li><a href="#aboutme" onclick="select()">ABOUT ME</a></li>
-                    <li><a href="#skills" onclick="select()">SKILLS</a></li>
-                    <li><a href="#curriculum" onclick="select()">CURRICULUM</a></li>
-                    <li><a href="#portfolio" onclick="select()">PORTFOLIO</a></li>
-                    <li><a href="#contact" onclick="select()">CONTACT</a></li>
-                </ul>
-            </nav>
-            <div class="nav-responsive" onclick="showHiddeMenu()">
-                <i class="fa-solid fa-bars"></i>
-            </div>
+            
+<nav id="nav">
+    <ul>
+        <li><a href="#home" onclick="select()">HOME</a></li>
+        <li><a href="#aboutme" onclick="select()">ABOUT ME</a></li>
+        <li><a href="#skills" onclick="select()">SKILLS</a></li>
+        <li><a href="#curriculum" onclick="select()">CURRICULUM</a></li>
+        <li><a href="#services" onclick="select()">SERVICES</a></li>
+        <li><a href="#portfolio" onclick="select()">PORTFOLIO</a></li>
+        <li><a href="#contact" onclick="select()">CONTACT</a></li>
+    </ul>
+</nav>
+<div class="nav-responsive" onclick="showHiddeMenu()">
+    <i class="fa-solid fa-bars"></i>
+</div>
+
         </header>
     </div>
-
-    <!-- SECTION HOME-->
-    <section id="home" class="home">
-        <div class="banner-contain">
-            <div class="img-container">
-                <img src="img/johan.png" alt="">
-            </div>
-            <h1>Johan David Wallens</h1>
-            <h2>Python developer</h2>
-            <div class="social">
-                <a href="https://github.com/Johan-Wa" target="_blank">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-                <a href=" https://wa.me/573507475680" target="_blank">
-                    <i class="fa-brands fa-whatsapp"></i>
-                </a>
-                <a href="https://public.tableau.com/app/profile/johan.david.wallens/vizzes" target="_blank">
-                    <i class="fa-regular fa-chart-bar"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/johan-david-wallens-pati%C3%B1o-a78401152/" target="_blank">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-                <a href="https://t.me/+577475680." target="_blank">
-                    <i class="fa-brands fa-telegram"></i>
-                </a>
-            </div>
+    <main>
+        
+<!-- SECTION HOME-->
+<section id="home" class="home">
+    <div class="banner-contain">
+        <div class="img-container">
+            <img src="src/img/johan.png" alt="">
         </div>
-    </section>
-
-    <!-- SECTION ABOIUT ME-->
-    <section class="aboutme" id="aboutme">
-        <div class="section-contain">
-            <h2>About Me</h2>
-            <p><span>Hi, my name is Johan David Wallens.</span> I am a student of Biology and software Engineering, 
-                self-taught person. Currently in constant leaarning, in
-                science and tecnology, with particular interest
-                about data science and machine learning. With
-                experience about operating systems such as linux and
-                windows, installation and maintenance of
-                hardware and software installation.</p>
-            <div class="row">
-                <!-- Personal information-->
-                <div class="col">
-                    <h3>Personal Information</h3>
-                    <ul>
-                        <li>
-                            <strong>Birthday</strong>
-                            28-06-1994
-                        </li>
-                        <li>
-                            <strong>Phone</strong>
-                            +57 3507475680
-                        </li>
-                        <li>
-                            <strong>Email</strong>
-                            johandavidgp@gmail.com
-                        </li>
-                        <li>
-                            <strong>City</strong>
-                            Cali, Valle del cauca, Colombia
-                        </li>
-                        <li>
-                            <strong>Profile</strong>
-                            Back'end developer
-                        </li>
-                    </ul>
-                </div>
-                <!-- Hobbies -->
-                <div class="col">
-                    <h3>Hobbies</h3>
-                    <div class="hobbies-container">
-                        <div class="hobbie">
-                            <i class="fa-solid fa-gamepad"></i>
-                            <span>GAMES</span>
-                        </div>
-                        <div class="hobbie">
-                            <i class="fa-solid fa-person-hiking"></i>
-                            <span>TREKING</span>
-                        </div>
-                        <div class="hobbie">
-                            <i class="fa-solid fa-flask"></i>
-                            <span>SCIENCE</span>
-                        </div>
-                        <div class="hobbie">
-                            <i class="fa-solid fa-pen-fancy"></i>
-                            <span>POETRY</span>
-                        </div>
-                        <div class="hobbie">
-                            <i class="fa-solid fa-headphones"></i>
-                            <span>MUSIC</span>
-                        </div>
-                        <div class="hobbie">
-                            <i class="fa-solid fa-book"></i>
-                            <span>READING</span>
-                        </div>
-                        <div class="hobbie">
-                            <i class="fa-brands fa-linux"></i>
-                            <span>lINUX</span>
-                        </div>
-                        <div class="hobbie">
-                            <i class="fa-solid fa-person-swimming"></i>
-                            <span>SWIMMING</span>
-                        </div>
-                        <div class="hobbie">
-                            <i class="fa-solid fa-tents"></i>
-                            <span>CAMPING</span>
-                        </div>
-                        <div class="hobbie">
-                            <i class="fa-solid fa-pencil"></i>
-                            <span>DRAWING</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button>
-                <a href="src/CV_johan.pdf" target="blank">
-                    View CV <i class="fa-solid fa-download"></i>
-                    <span class="overlay"></span>
-                </a>
-            </button>
-        </div>
-    </section>
-
-    <!-- SECTION SKILLS -->
-    <section id="skills" class="skills">
-        <div class="section-contain">
-            <h2>Skills</h2>
-            <div class="row">
-                <!-- Technical Skill-->
-                <div class="col">
-                    <h3>Technical Skills</h3>
-                    <div class="skill">
-                        <span>Python</span>
-                        <div class="skill-bar">
-                            <div class="progress">
-                                <span>91%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Javascript</span>
-                        <div class="skill-bar">
-                            <div class="progress">
-                                <span>45%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>HTML & CSS</span>
-                        <div class="skill-bar">
-                            <div class="progress">
-                                <span>70%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Godot</span>
-                        <div class="skill-bar">
-                            <div class="progress">
-                                <span>65%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Inkscape, Photoshop, Gimp & Krita</span>
-                        <div class="skill-bar">
-                            <div class="progress">
-                                <span>69%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>kottlin</span>
-                        <div class="skill-bar">
-                            <div class="progress">
-                                <span>35%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Tableau</span>
-                        <div class="skill-bar">
-                            <div class="progress">
-                                <span>68%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Git & Github</span>
-                        <div class="skill-bar">
-                            <div class="progress">
-                                <span>72%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Terminal</span>
-                        <div class="skill-bar">
-                            <div class="progress">
-                                <span>95%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Bash</span>
-                        <div class="skill-bar">
-                            <div class="progress">
-                                <span>90%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>SQL</span>
-                        <div class="skill-bar">
-                            <div class="progress">
-                                <span>69%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Docker</span>
-                        <div class="skill-bar">
-                            <div class="progress">
-                                <span>50%</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-                <!-- Professional Skills-->
-                <div class="col">
-                    <h3>Professional Skills</h3>
-                    <div class="skill">
-                        <span>Comunication</span>
-                        <div class="skill-bar">
-                            <div class="progress">
-                                <span>80%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Teamwork</span>
-                        <div class="skill-bar">
-                            <div class="progress">
-                                <span>75%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Creativity</span>
-                        <div class="skill-bar">
-                            <div class="progress">
-                                <span>98%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Strategic Thinking</span>
-                        <div class="skill-bar">
-                            <div class="progress">
-                                <span>82%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Leadership</span>
-                        <div class="skill-bar">
-                            <div class="progress">
-                                <span>88%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Active Learning</span>
-                        <div class="skill-bar">
-                            <div class="progress">
-                                <span>97%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECTION CURRICULUM -->
-    <section id="curriculum" class="curriculum">
-        <div class="section-contain">
-            <h2>Curriculum</h2>
-            <div class="row">
-                <div class="col left">
-                    <h3>Learning</h3>
-                    <div class="item left-i">
-                        <h4>Server Management</h4>
-                        <span class="school">platzi</span>
-                        <span class="date">2023</span>
-                        <p>Management of web server, like ubuntu server and redhat enterprise.</p>
-                        <div class="conector-left">
-                            <div class="circle-left"></div>
-                        </div>
-                    </div>
-                    <div class="item left-i">
-                        <h4>Back'end Development</h4>
-                        <span class="school">platzi</span>
-                        <span class="date">2022</span>
-                        <p>Back'end development, using freameworks such django, FastApi and Flask</p>
-                        <div class="conector-left">
-                            <div class="circle-left"></div>
-                        </div>
-                    </div>
-                    <div class="item left-i">
-                        <h4>Data Science</h4>
-                        <span class="school">platzi</span>
-                        <span class="date">in process</span>
-                        <p>Data science, using jupyther notebooks, and libraries such pandas, matplotlip, numpy, etc...</p>
-                        <div class="conector-left">
-                            <div class="circle-left"></div>
-                        </div>
-                    </div>
-                    <div class="item left-i">
-                        <h4>Biology</h4>
-                        <span class="school">Pontificia Universidad Javeriana, Cali</span>
-                        <span class="date">2018 (paused)</span>
-                        <p>Student of biology, focused in the study of bats and their environment.</p>
-                            <div class="conector-left">
-                                <div class="circle-left"></div>
-                            </div>
-                    </div>
-                </div>
-                <div class="col right">
-                    <h3>Jobs</h3>
-                    <div class="item right-i">
-                        <h4>Logistic Asistant</h4>
-                        <span class="school">BSS</span>
-                        <span class="date">Actually</span>
-                        <p>load and unload of mercancy
-                            and micelaneus trades.</p>
-                        <div class="conector-right">
-                            <div class="circle-right"></div>
-                        </div>
-                    </div>
-                    <div class="item right-i">
-                        <h4>Python developer</h4>
-                        <span class="school">Freelance</span>
-                        <span class="date">Actually</span>
-                        <p>Development in python, click apps, web aplications
-                            GUI interfaces, and utility scripts.
-                        </p>
-                        <div class="conector-right">
-                            <div class="circle-right"></div>
-                        </div>
-                    </div>
-                    <div class="item right-i">
-                        <h4>Computer Repair and Maintenance</h4>
-                        <span class="school">Independent Contrator</span>
-                        <span class="date">Actually</span>
-                        <p>Software installation and
-                            hardware maintenance.</p>
-                        <div class="conector-right">
-                            <div class="circle-right"></div>
-                        </div>
-                    </div>
-                    <div class="item right-i">
-                        <h4>Biosafety Manager</h4>
-                        <span class="school">Pontificia Universidad Javeriana, Cali</span>
-                        <span class="date">August 2021 - February 2022</span>
-                        <p>Manage awareness campaigns,
-                            and ensure compliance with
-                            biosafety standars.</p>
-                            <div class="conector-right">
-                                <div class="circle-right"></div>
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECTION PORTFOLIO -->
-    <section class="portfolio" id="portfolio">
-        <div class="section-contain">
-            <h2>Portfolio</h2>
-            <div class="categories" id="categories">
-                <a href="#" class="active">All</a>
-                <a href="#">Web</a>
-                <a href="#">Games</a>
-                <a href="#">Scripts</a>
-                <a href="#">Statistics</a>
-                <a href="#">Apps</a>
-            </div>
-            <div class="projects">
-                <div class="grid" id="grid">
-                    <div class="item"
-                        data-categories="web"
-                        data-description="Social web, developed with djando, Bootstrap and HTML"
-                    >
-                    
-                        <div class="item-contenido">
-                            <img src="img/picstory.png">
-                        </div>
-                    </div>
-                    <div class="item"
-                        data-categories="apps"
-                        data-description="GUI app that generates curriculums, developed with python."
-                    >
-                        <div class="item-contenido">
-                            <img src="img/cv_creator.png">
-                        </div>
-                    </div>
-                    <div class="item"
-                        data-categories="games"
-                        data-description="A simple game, made in godot engine with GDScript language."
-                    >
-                        <div class="item-contenido">
-                            <img src="img/arkanet.png">
-                        </div>
-                    </div>
-                    <div class="item"
-                        data-categories="statistics"
-                        data-description="A parametric estimation graph, made in jupyter notebooks."
-                    >
-                        <div class="item-contenido">
-                            <img src="img/estimacion_parametrica.png">
-                        </div>
-                    </div>
-                    <div class="item" 
-                        data-categories="scripts"
-                        data-description="A simple escript that delaim a randonly poem."
-                    >
-                        <div class="item-contenido">
-                            <img src="img/poemary.png">
-                        </div>
-                    </div>
-                    <div class="item" 
-                        data-categories="scripts"
-                        data-description="A simple script that move media files into a directori and compress they."
-                    >
-                        <div class="item-contenido">
-                            <img src="img/movefiles.png">
-                        </div>
-                    </div>
-                    <div class="item"
-                        data-categories="statistics"
-                        data-description="Simetric data graph, made in jupyter notebooks"
-                    >
-                        <div class="item-contenido">
-                            <img src="img/datos_simetricos.png">
-                        </div>
-                    </div>
-                    <div class="item"
-                        data-categories="apps"
-                        data-description="A conosole application that simulates a sells app, with database (sql,python)."
-                    >
-                        <div class="item-contenido">
-                            <img src="img/sells_simulator.png">
-                        </div>
-                    </div>
-                    <div class="item"
-                        data-categories="web"
-                        data-description="My personal web and curriculum, with a responsive design, developed with HTML, CSS and Javascript."
-                    >
-                        <div class="item-contenido">
-                            <img src="img/johan-wa.png">
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-overlay" id="grid-overlay">
-                    <div class="img-container">
-                        <button id="btn-close-popup"><i class="fa-solid fa-xmark"></i></button>
-                        <img src="" alt="">
-                    </div>
-                    <p class="description"></p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECTION CONTACT -->
-    <section class="contact" id="contact">
-        <div class="section-contain">
-            <h2>Contact</h2>
-            <!-- Form -->
-            <form class="form" action="mailto:johandavidgp@gmail.com" method="post" enctype="text/plain">
-                <input type="text" placeholder="Name" name="name">
-                <input type="text" placeholder="Phone" name="phone">
-                <input type="text" placeholder="Email" name="mail">
-                <input type="text" placeholder="Subject" name="subject">
-                <textarea cols="30" rows="10" placeholder="Message" name="message"></textarea>
-                <button type="submit">
-                    Send Message
-                    <i class="fa-solid fa-paper-plane"></i>
-                    <span class="overlay"></span>
-                </button>
-            </form>
-        </div>
-    </section>
-    <!-- Footer -->
-    <footer>
-        <a href="#home" class="up">
-            <i class="fa-solid fa-angles-up"></i>
-        </a>
+        <h1>Johan David Wallens</h1>
+        <h2>Python Developer</h2>
+        
         <div class="social">
+            
+            <a href="" target="_blank">
+                
+            </a>
+            
             <a href="https://github.com/Johan-Wa" target="_blank">
                 <i class="fa-brands fa-github"></i>
             </a>
-            <a href=" https://wa.me/573507475680" target="_blank">
+            
+            <a href="https://wa.me/573507475680" target="_blank">
                 <i class="fa-brands fa-whatsapp"></i>
             </a>
+            
             <a href="https://public.tableau.com/app/profile/johan.david.wallens/vizzes" target="_blank">
                 <i class="fa-regular fa-chart-bar"></i>
             </a>
+            
             <a href="https://www.linkedin.com/in/johan-david-wallens-pati%C3%B1o-a78401152/" target="_blank">
                 <i class="fa-brands fa-linkedin"></i>
             </a>
-            <a href="https://t.me/+577475680." target="_blank">
+            
+            <a href="https://t.me/jodral" target="_blank">
                 <i class="fa-brands fa-telegram"></i>
             </a>
+            
         </div>
+        
+    </div>
+</section>
+
+<!-- SECTION ABOIUT ME-->
+<section class="aboutme" id="aboutme">
+    <div class="section-contain">
+        <h2>About Me</h2>
+        <p><span>Hi, my name is Johan David Wallens.</span> I am a student of Biology and software Engineering,
+self-taught person. Currently in constant leaarning, in
+science and tecnology, with particular interest
+about data science and machine learning. With
+experience about operating systems such as linux and
+windows, installation and maintenance of
+hardware and software installation.</p>
+        <div class="row">
+            
+            <!-- Personal information-->
+            <div class="col">
+                <h3>Personal Information</h3>
+                <ul>
+                    
+                    <li>
+                        <strong>Phone</strong>
+                        +57 3507475680
+                    </li>
+                    
+                    <li>
+                        <strong>Email</strong>
+                        johandavidgp@gmail.com
+                    </li>
+                    
+                    <li>
+                        <strong>Profile</strong>
+                        Backend Developer.
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+            <!-- Hobbies -->
+            <div class="col">
+                <h3>Hobbies</h3>
+                <div class="hobbies-container">
+                    
+                    <div class="hobbie">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>GAMES</span>
+                    </div>
+                    
+                    <div class="hobbie">
+                        <i class="fa-solid fa-person-hiking"></i>
+                        <span>TREKING</span>
+                    </div>
+                    
+                    <div class="hobbie">
+                        <i class="fa-solid fa-flask"></i>
+                        <span>SCIENCE</span>
+                    </div>
+                    
+                    <div class="hobbie">
+                        <i class="fa-solid fa-pen-fancy"></i>
+                        <span>POETRY</span>
+                    </div>
+                    
+                    <div class="hobbie">
+                        <i class="fa-solid fa-headphones"></i>
+                        <span>MUSIC</span>
+                    </div>
+                    
+                    <div class="hobbie">
+                        <i class="fa-solid fa-book"></i>
+                        <span>READING</span>
+                    </div>
+                    
+                    <div class="hobbie">
+                        <i class="fa-brands fa-linux"></i>
+                        <span>LINUX</span>
+                    </div>
+                    
+                    <div class="hobbie">
+                        <i class="fa-solid fa-person-swimming"></i>
+                        <span>SWIMMING</span>
+                    </div>
+                    
+                    <div class="hobbie">
+                        <i class="fa-solid fa-tents"></i>
+                        <span>CAMPING</span>
+                    </div>
+                    
+                    <div class="hobbie">
+                        <i class="fa-solid fa-pencil"></i>
+                        <span>DRAWING</span>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+        
+        <button>
+            <a href="src/CV_johan.pdf" target="blank">
+                View CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </a>
+        </button>
+        
+    </div>
+</section>
+
+<!-- SECTION SKILLS -->
+<section id="skills" class="skills">
+    <div class="section-contain">
+        <h2>Skills</h2>
+        <div class="row">
+            
+            <!-- Technical Skill-->
+            <div class="col">
+                <h3>Technical Skills</h3>
+                
+                <div class="skill">
+                    <span>Python</span>
+                    <div class="skill-bar">
+                        <div class="progress">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <span>Javascript</span>
+                    <div class="skill-bar">
+                        <div class="progress">
+                            <span>45%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <span>HTML & CSS</span>
+                    <div class="skill-bar">
+                        <div class="progress">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <span>Godot</span>
+                    <div class="skill-bar">
+                        <div class="progress">
+                            <span>65%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <span>Inkscape - Photoshop - Krita - Gimp</span>
+                    <div class="skill-bar">
+                        <div class="progress">
+                            <span>69%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <span>Kotlin</span>
+                    <div class="skill-bar">
+                        <div class="progress">
+                            <span>35%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <span>Tableu</span>
+                    <div class="skill-bar">
+                        <div class="progress">
+                            <span>68%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <span>Git & GitHub</span>
+                    <div class="skill-bar">
+                        <div class="progress">
+                            <span>72%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <span>Terminal</span>
+                    <div class="skill-bar">
+                        <div class="progress">
+                            <span>95%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <span>Bash</span>
+                    <div class="skill-bar">
+                        <div class="progress">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <span>SQL</span>
+                    <div class="skill-bar">
+                        <div class="progress">
+                            <span>69%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <span>Docker</span>
+                    <div class="skill-bar">
+                        <div class="progress">
+                            <span>50%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+            
+
+            
+            <!-- Professional Skill-->
+            <div class="col">
+                <h3>Professional Skills</h3>
+                
+                <div class="skill">
+                    <span>Comunication</span>
+                    <div class="skill-bar">
+                        <div class="progress">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <span>Teamwork</span>
+                    <div class="skill-bar">
+                        <div class="progress">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <span>Creativity</span>
+                    <div class="skill-bar">
+                        <div class="progress">
+                            <span>98%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <span>Strategic Thinking</span>
+                    <div class="skill-bar">
+                        <div class="progress">
+                            <span>82%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <span>Leadership</span>
+                    <div class="skill-bar">
+                        <div class="progress">
+                            <span>88%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <span>Active Learning</span>
+                    <div class="skill-bar">
+                        <div class="progress">
+                            <span>97%</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+
+
+            
+        </div>
+    </div>
+</section>
+
+<!-- SECTION CURRICULUM -->
+<section id="curriculum" class="curriculum">
+    <div class="section-contain">
+        <h2>Curriculum</h2>
+        <div class="row">
+            
+            <div class="col left">
+                <h3>Learning</h3>
+                
+                <div class="item left-i">
+                    <h4>Server Management</h4>
+                    <span class="school">Platzi</span>
+                    <span class="date">2023</span>
+                    <p>Management of web server, like ubuntu server and redhat enterprise.</p>
+                    <div class="conector-left">
+                        <div class="circle-left"></div>
+                    </div>
+                </div>
+                
+                <div class="item left-i">
+                    <h4>Backend Development</h4>
+                    <span class="school">Platzi</span>
+                    <span class="date">2022</span>
+                    <p>Backend development, using freameworks such django, FastApi and Flask</p>
+                    <div class="conector-left">
+                        <div class="circle-left"></div>
+                    </div>
+                </div>
+                
+                <div class="item left-i">
+                    <h4>Data Science</h4>
+                    <span class="school">Platzi</span>
+                    <span class="date">in process</span>
+                    <p>Data science, using jupyther notebooks, and libraries such pandas, matplotlip, numpy, etc...</p>
+                    <div class="conector-left">
+                        <div class="circle-left"></div>
+                    </div>
+                </div>
+                
+                <div class="item left-i">
+                    <h4>Biology</h4>
+                    <span class="school">Pontificia Universidad Javeriana, Cali</span>
+                    <span class="date">2018(paused)</span>
+                    <p>Student of biology, focused in the study of bats and their environment.</p>
+                    <div class="conector-left">
+                        <div class="circle-left"></div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            <div class="col right">
+                <h3>Learning</h3>
+                
+                <div class="item right-i">
+                    <h4>Logistic Asistant</h4>
+                    <span class="school">BSS</span>
+                    <span class="date">July 2023 - December 2023</span>
+                    <p>Load and unload of mercancy and micelaneous trades.</p>
+                    <div class="conector-right">
+                        <div class="circle-right"></div>
+                    </div>
+                </div>
+                
+                <div class="item right-i">
+                    <h4>Python developer</h4>
+                    <span class="school">Freelance</span>
+                    <span class="date">Actually</span>
+                    <p>Development in python click and web apps, GUI interfaces,, and utility scripts.</p>
+                    <div class="conector-right">
+                        <div class="circle-right"></div>
+                    </div>
+                </div>
+                
+                <div class="item right-i">
+                    <h4>Computer Repair and Maintenance</h4>
+                    <span class="school">Independent Contrator</span>
+                    <span class="date">Actually</span>
+                    <p>Sofware installations and Hardware maintenance.</p>
+                    <div class="conector-right">
+                        <div class="circle-right"></div>
+                    </div>
+                </div>
+                
+                <div class="item right-i">
+                    <h4>Biosafety Manager</h4>
+                    <span class="school">Pontificia Universidad Javeriana</span>
+                    <span class="date">August 2021 - February 2022</span>
+                    <p>Manage awareness campaings, and ensure compliance with biosafety standards.</p>
+                    <div class="conector-right">
+                        <div class="circle-right"></div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+        </div>
+    </div>
+</section>
+<!-- SECTION SERVICES -->
+<section class="services" id="services">
+    <div class="section-contain">
+        
+        <h2>Services</h2>
+        <div class="cards-container">
+            
+            <div class="card">
+                <h3>Web Development</h3>
+                <div class="im-card">
+                    <svg
+width="200"
+height="200"
+viewBox="0 0 52.916665 52.916666"
+version="1.1"
+id="svg1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:svg="http://www.w3.org/2000/svg">
+<defs
+id="defs1" />
+<g
+id="layer1">
+<g
+id="g9"
+transform="matrix(0.49509101,0,0,0.49509101,59.812443,15.898913)"
+style="stroke-width:1.60324;stroke-dasharray:none">
+<path
+id="path2"
+style="fill:none;stroke:#000000;stroke-width:1.60324;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+d="m -41.50496,0.12143962 c -0.0079,0 -0.01395,0.006538 -0.01395,0.0144694 V 3.365686 a 9.3955231,9.3955231 0 0 0 -5.149556,2.8670085 L -49.61816,4.4617432 c -0.0068,-0.00408 -0.01555,-0.00163 -0.01964,0.00517 l -2.052071,3.418396 c -0.0041,0.0068 -0.0022,0.015555 0.0047,0.019637 l 2.974495,1.784904 c 0.0068,0.00408 0.01555,0.00215 0.01964,-0.00465 l 0.06356,-0.1059366 a 9.3955231,9.3955231 0 0 0 -0.220141,0.6273514 9.3955231,9.3955231 0 0 0 0.160713,5.215702 l -2.92902,1.471745 c -0.0071,0.0036 -0.0098,0.01203 -0.0062,0.01912 l 1.790072,3.562056 c 0.0036,0.0071 0.01203,0.01028 0.01912,0.0067 l 3.099552,-1.557528 c 0.0071,-0.0036 0.0098,-0.01203 0.0062,-0.01912 l -0.03411,-0.06821 a 9.3955231,9.3955231 0 0 0 4.564579,2.828768 9.3955231,9.3955231 0 0 0 0.330213,0.06098 v 3.134176 c 0,0.0079 0.0065,0.01447 0.01447,0.01447 h 3.986837 c 0.0079,0 0.01447,-0.0065 0.01447,-0.01447 v -3.087667 a 9.3955231,9.3955231 0 0 0 5.83582,-3.916557 l -0.09819,0.243913 c -0.003,0.0074 9.13e-4,0.01563 0.0083,0.0186 l 3.216341,1.298112 c 0.0074,0.003 0.01563,-3.96e-4 0.0186,-0.0078 l 1.492416,-3.697449 c 0.003,-0.0074 -9.13e-4,-0.01563 -0.0083,-0.0186 l -3.176551,-1.282093 a 9.3955231,9.3955231 0 0 0 -0.294039,-4.7588819 l 0.0016,0.00258 c 0.0038,0.00697 0.01215,0.00948 0.01912,0.00568 l 3.046326,-1.6588135 c 0.007,-0.00379 0.01,-0.012154 0.0062,-0.01912 l -1.906861,-3.5015951 c -0.0038,-0.00697 -0.01215,-0.00948 -0.01912,-0.00568 l -3.046326,1.6588135 c -0.007,0.00379 -0.01,0.012154 -0.0062,0.01912 l 0.287838,0.5286499 a 9.3955231,9.3955231 0 0 0 -4.811076,-3.1538127 l -0.151412,-0.040824 a 9.3955231,9.3955231 0 0 0 -0.08733,-0.01602 V 0.13590902 c 0,-0.007932 -0.0065,-0.0144694 -0.01447,-0.0144694 z" />
+<path
+style="fill:none;stroke:#000000;stroke-width:1.60324;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="path4"
+d="m -37.940367,5.9823257 a 6.8501225,6.8501225 0 0 1 4.793837,8.3949793 6.8501225,6.8501225 0 0 1 -8.374893,4.828843 6.8501225,6.8501225 0 0 1 -4.863765,-8.354659 6.8501225,6.8501225 0 0 1 8.334281,-4.8986033" />
+</g>
+<g
+id="g10"
+transform="matrix(0.20709602,0.09826482,-0.09826482,0.20709602,40.163218,28.658477)"
+style="stroke-width:1.73137;stroke-dasharray:none">
+<path
+id="path9"
+style="fill:none;stroke:#000000;stroke-width:1.73137;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+d="m -41.50496,0.12143962 c -0.0079,0 -0.01395,0.006538 -0.01395,0.0144694 V 3.365686 a 9.3955231,9.3955231 0 0 0 -5.149556,2.8670085 L -49.61816,4.4617432 c -0.0068,-0.00408 -0.01555,-0.00163 -0.01964,0.00517 l -2.052071,3.418396 c -0.0041,0.0068 -0.0022,0.015555 0.0047,0.019637 l 2.974495,1.784904 c 0.0068,0.00408 0.01555,0.00215 0.01964,-0.00465 l 0.06356,-0.1059366 a 9.3955231,9.3955231 0 0 0 -0.220141,0.6273514 9.3955231,9.3955231 0 0 0 0.160713,5.215702 l -2.92902,1.471745 c -0.0071,0.0036 -0.0098,0.01203 -0.0062,0.01912 l 1.790072,3.562056 c 0.0036,0.0071 0.01203,0.01028 0.01912,0.0067 l 3.099552,-1.557528 c 0.0071,-0.0036 0.0098,-0.01203 0.0062,-0.01912 l -0.03411,-0.06821 a 9.3955231,9.3955231 0 0 0 4.564579,2.828768 9.3955231,9.3955231 0 0 0 0.330213,0.06098 v 3.134176 c 0,0.0079 0.0065,0.01447 0.01447,0.01447 h 3.986837 c 0.0079,0 0.01447,-0.0065 0.01447,-0.01447 v -3.087667 a 9.3955231,9.3955231 0 0 0 5.83582,-3.916557 l -0.09819,0.243913 c -0.003,0.0074 9.13e-4,0.01563 0.0083,0.0186 l 3.216341,1.298112 c 0.0074,0.003 0.01563,-3.96e-4 0.0186,-0.0078 l 1.492416,-3.697449 c 0.003,-0.0074 -9.13e-4,-0.01563 -0.0083,-0.0186 l -3.176551,-1.282093 a 9.3955231,9.3955231 0 0 0 -0.294039,-4.7588819 l 0.0016,0.00258 c 0.0038,0.00697 0.01215,0.00948 0.01912,0.00568 l 3.046326,-1.6588135 c 0.007,-0.00379 0.01,-0.012154 0.0062,-0.01912 l -1.906861,-3.5015951 c -0.0038,-0.00697 -0.01215,-0.00948 -0.01912,-0.00568 l -3.046326,1.6588135 c -0.007,0.00379 -0.01,0.012154 -0.0062,0.01912 l 0.287838,0.5286499 a 9.3955231,9.3955231 0 0 0 -4.811076,-3.1538127 l -0.151412,-0.040824 a 9.3955231,9.3955231 0 0 0 -0.08733,-0.01602 V 0.13590902 c 0,-0.007932 -0.0065,-0.0144694 -0.01447,-0.0144694 z" />
+<path
+style="fill:none;stroke:#000000;stroke-width:1.73137;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="path10"
+d="m -37.940367,5.9823257 a 6.8501225,6.8501225 0 0 1 4.793837,8.3949793 6.8501225,6.8501225 0 0 1 -8.374893,4.828843 6.8501225,6.8501225 0 0 1 -4.863765,-8.354659 6.8501225,6.8501225 0 0 1 8.334281,-4.8986033" />
+</g>
+<g
+id="g13"
+transform="translate(2.7903536,3.3542968)">
+<path
+id="rect1"
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+d="M 6.0642293,8.8924805 V 31.296281 H 22.06687 v 6.956681 c 0,0.0071 0.0058,0.01292 0.01292,0.01292 H 13.4922 c -0.0068,0 -0.0124,0.0056 -0.0124,0.0124 v 3.331063 c 0,0.0068 0.0056,0.0124 0.0124,0.0124 h 25.932267 c 0.0068,0 0.0124,-0.0056 0.0124,-0.0124 v -3.331063 c 0,-0.0068 -0.0056,-0.0124 -0.0124,-0.0124 h -8.58759 c 0.0071,0 0.01292,-0.0058 0.01292,-0.01292 v -6.956681 h 16.00264 V 8.8924805 Z" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="rect2"
+width="37.837093"
+height="17.175163"
+x="7.5397863"
+y="11.506799"
+ry="0.0097887525" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="rect10"
+width="13.6913"
+height="1.577228"
+x="9.8516369"
+y="13.404619"
+ry="0.012768745" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="rect11"
+width="9.2801352"
+height="1.8438301"
+x="9.9593554"
+y="16.857681"
+ry="0.012768745" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="rect12"
+width="10.9992"
+height="2.0912576"
+x="9.56248"
+y="21.450207"
+ry="0.012768745" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="rect13"
+width="12.76316"
+height="1.3195232"
+x="9.466897"
+y="25.55254"
+ry="0.012768745" />
+</g>
+<path
+id="path13"
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+d="M 14.030541,3.1236655 A 11.676118,11.676118 0 0 0 3.1195784,11.835338 11.676118,11.676118 0 0 0 8.8392079,25.023082 V 12.262157 c 0,-0.0085 0.00696,-0.01538 0.015375,-0.01538 H 25.808673 A 11.676118,11.676118 0 0 0 17.51398,3.5357249 L 17.32517,3.4859089 A 11.676118,11.676118 0 0 0 14.030541,3.1236655 Z" />
+<text
+xml:space="preserve"
+style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.29167px;line-height:1.5;font-family:C059;-inkscape-font-specification:'C059, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fff;stroke:none;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+x="5.4863701"
+y="11.592379"
+id="text14"><tspan
+id="tspan14"
+style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.29167px;font-family:C059;-inkscape-font-specification:'C059, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fff;stroke:none;stroke-width:0.79375;stroke-dasharray:none"
+x="5.4863701"
+y="11.592379">WWW</tspan></text>
+</g>
+</svg>
+                </div>
+                <p class="card-text">
+                    Development of static and dinamic web sites, landin pages, web apps,
+services porfolios and more.
+                </p>
+            </div>
+            
+            <div class="card">
+                <h3>Software Development</h3>
+                <div class="im-card">
+                    <svg
+width="200"
+height="200"
+viewBox="0 0 52.916665 52.916666"
+version="1.1"
+id="svg1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:svg="http://www.w3.org/2000/svg">
+<defs
+id="defs1" />
+<g
+id="layer1">
+<path
+id="rect1"
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+d="M 6.0642293 8.8924805 L 6.0642293 31.296281 L 22.06687 31.296281 L 22.06687 38.252962 C 22.06687 38.260036 22.072715 38.265881 22.079789 38.265881 L 13.4922 38.265881 C 13.485392 38.265881 13.479797 38.271476 13.479797 38.278284 L 13.479797 41.609347 C 13.479797 41.616154 13.485392 41.621749 13.4922 41.621749 L 39.424467 41.621749 C 39.431274 41.621749 39.436869 41.616154 39.436869 41.609347 L 39.436869 38.278284 C 39.436869 38.271476 39.431274 38.265881 39.424467 38.265881 L 30.836877 38.265881 C 30.843951 38.265881 30.849797 38.260036 30.849797 38.252962 L 30.849797 31.296281 L 46.852437 31.296281 L 46.852437 8.8924805 L 6.0642293 8.8924805 z " />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="rect2"
+width="37.837093"
+height="17.175163"
+x="7.5397863"
+y="11.506799"
+ry="0.0097887525" />
+<g
+id="g9"
+transform="matrix(0.49509101,0,0,0.49509101,55.735913,13.059341)"
+style="stroke-width:1.60324;stroke-dasharray:none">
+<path
+id="path2"
+style="fill:none;stroke:#000000;stroke-width:1.60324;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+d="m -41.50496,0.12143962 c -0.0079,0 -0.01395,0.006538 -0.01395,0.0144694 V 3.365686 a 9.3955231,9.3955231 0 0 0 -5.149556,2.8670085 L -49.61816,4.4617432 c -0.0068,-0.00408 -0.01555,-0.00163 -0.01964,0.00517 l -2.052071,3.418396 c -0.0041,0.0068 -0.0022,0.015555 0.0047,0.019637 l 2.974495,1.784904 c 0.0068,0.00408 0.01555,0.00215 0.01964,-0.00465 l 0.06356,-0.1059366 a 9.3955231,9.3955231 0 0 0 -0.220141,0.6273514 9.3955231,9.3955231 0 0 0 0.160713,5.215702 l -2.92902,1.471745 c -0.0071,0.0036 -0.0098,0.01203 -0.0062,0.01912 l 1.790072,3.562056 c 0.0036,0.0071 0.01203,0.01028 0.01912,0.0067 l 3.099552,-1.557528 c 0.0071,-0.0036 0.0098,-0.01203 0.0062,-0.01912 l -0.03411,-0.06821 a 9.3955231,9.3955231 0 0 0 4.564579,2.828768 9.3955231,9.3955231 0 0 0 0.330213,0.06098 v 3.134176 c 0,0.0079 0.0065,0.01447 0.01447,0.01447 h 3.986837 c 0.0079,0 0.01447,-0.0065 0.01447,-0.01447 v -3.087667 a 9.3955231,9.3955231 0 0 0 5.83582,-3.916557 l -0.09819,0.243913 c -0.003,0.0074 9.13e-4,0.01563 0.0083,0.0186 l 3.216341,1.298112 c 0.0074,0.003 0.01563,-3.96e-4 0.0186,-0.0078 l 1.492416,-3.697449 c 0.003,-0.0074 -9.13e-4,-0.01563 -0.0083,-0.0186 l -3.176551,-1.282093 a 9.3955231,9.3955231 0 0 0 -0.294039,-4.7588819 l 0.0016,0.00258 c 0.0038,0.00697 0.01215,0.00948 0.01912,0.00568 l 3.046326,-1.6588135 c 0.007,-0.00379 0.01,-0.012154 0.0062,-0.01912 l -1.906861,-3.5015951 c -0.0038,-0.00697 -0.01215,-0.00948 -0.01912,-0.00568 l -3.046326,1.6588135 c -0.007,0.00379 -0.01,0.012154 -0.0062,0.01912 l 0.287838,0.5286499 a 9.3955231,9.3955231 0 0 0 -4.811076,-3.1538127 l -0.151412,-0.040824 a 9.3955231,9.3955231 0 0 0 -0.08733,-0.01602 V 0.13590902 c 0,-0.007932 -0.0065,-0.0144694 -0.01447,-0.0144694 z" />
+<path
+style="fill:none;stroke:#000000;stroke-width:1.60324;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="path4"
+d="m -37.940367,5.9823257 a 6.8501225,6.8501225 0 0 1 4.793837,8.3949793 6.8501225,6.8501225 0 0 1 -8.374893,4.828843 6.8501225,6.8501225 0 0 1 -4.863765,-8.354659 6.8501225,6.8501225 0 0 1 8.334281,-4.8986033" />
+</g>
+<g
+id="g10"
+transform="matrix(0.20709602,0.09826482,-0.09826482,0.20709602,34.76651,24.841665)"
+style="stroke-width:1.73136699;stroke-dasharray:none">
+<path
+id="path9"
+style="fill:none;stroke:#000000;stroke-width:1.73136699;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+d="m -41.50496,0.12143962 c -0.0079,0 -0.01395,0.006538 -0.01395,0.0144694 V 3.365686 a 9.3955231,9.3955231 0 0 0 -5.149556,2.8670085 L -49.61816,4.4617432 c -0.0068,-0.00408 -0.01555,-0.00163 -0.01964,0.00517 l -2.052071,3.418396 c -0.0041,0.0068 -0.0022,0.015555 0.0047,0.019637 l 2.974495,1.784904 c 0.0068,0.00408 0.01555,0.00215 0.01964,-0.00465 l 0.06356,-0.1059366 a 9.3955231,9.3955231 0 0 0 -0.220141,0.6273514 9.3955231,9.3955231 0 0 0 0.160713,5.215702 l -2.92902,1.471745 c -0.0071,0.0036 -0.0098,0.01203 -0.0062,0.01912 l 1.790072,3.562056 c 0.0036,0.0071 0.01203,0.01028 0.01912,0.0067 l 3.099552,-1.557528 c 0.0071,-0.0036 0.0098,-0.01203 0.0062,-0.01912 l -0.03411,-0.06821 a 9.3955231,9.3955231 0 0 0 4.564579,2.828768 9.3955231,9.3955231 0 0 0 0.330213,0.06098 v 3.134176 c 0,0.0079 0.0065,0.01447 0.01447,0.01447 h 3.986837 c 0.0079,0 0.01447,-0.0065 0.01447,-0.01447 v -3.087667 a 9.3955231,9.3955231 0 0 0 5.83582,-3.916557 l -0.09819,0.243913 c -0.003,0.0074 9.13e-4,0.01563 0.0083,0.0186 l 3.216341,1.298112 c 0.0074,0.003 0.01563,-3.96e-4 0.0186,-0.0078 l 1.492416,-3.697449 c 0.003,-0.0074 -9.13e-4,-0.01563 -0.0083,-0.0186 l -3.176551,-1.282093 a 9.3955231,9.3955231 0 0 0 -0.294039,-4.7588819 l 0.0016,0.00258 c 0.0038,0.00697 0.01215,0.00948 0.01912,0.00568 l 3.046326,-1.6588135 c 0.007,-0.00379 0.01,-0.012154 0.0062,-0.01912 l -1.906861,-3.5015951 c -0.0038,-0.00697 -0.01215,-0.00948 -0.01912,-0.00568 l -3.046326,1.6588135 c -0.007,0.00379 -0.01,0.012154 -0.0062,0.01912 l 0.287838,0.5286499 a 9.3955231,9.3955231 0 0 0 -4.811076,-3.1538127 l -0.151412,-0.040824 a 9.3955231,9.3955231 0 0 0 -0.08733,-0.01602 V 0.13590902 c 0,-0.007932 -0.0065,-0.0144694 -0.01447,-0.0144694 z" />
+<path
+style="fill:none;stroke:#000000;stroke-width:1.73136699;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="path10"
+d="m -37.940367,5.9823257 a 6.8501225,6.8501225 0 0 1 4.793837,8.3949793 6.8501225,6.8501225 0 0 1 -8.374893,4.828843 6.8501225,6.8501225 0 0 1 -4.863765,-8.354659 6.8501225,6.8501225 0 0 1 8.334281,-4.8986033" />
+</g>
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="rect10"
+width="13.6913"
+height="1.577228"
+x="9.8516369"
+y="13.404619"
+ry="0.012768745" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="rect11"
+width="9.2801352"
+height="1.8438301"
+x="9.9593554"
+y="16.857681"
+ry="0.012768745" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="rect12"
+width="10.9992"
+height="2.0912576"
+x="9.56248"
+y="21.450207"
+ry="0.012768745" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="rect13"
+width="12.76316"
+height="1.3195232"
+x="9.466897"
+y="25.55254"
+ry="0.012768745" />
+</g>
+</svg>
+                </div>
+                <p class="card-text">
+                    Development of diferents kinds of software, gui interfaces,
+cli aplications, utility scripts, automation, etc...
+                </p>
+            </div>
+            
+            <div class="card">
+                <h3>Data Analysis</h3>
+                <div class="im-card">
+                    <svg
+width="200"
+height="200"
+viewBox="0 0 52.916665 52.916666"
+version="1.1"
+id="svg1"
+sodipodi:docname="data.svg"
+inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:svg="http://www.w3.org/2000/svg">
+<sodipodi:namedview
+id="namedview1"
+pagecolor="#505050"
+bordercolor="#ffffff"
+borderopacity="1"
+inkscape:showpageshadow="0"
+inkscape:pageopacity="0"
+inkscape:pagecheckerboard="1"
+inkscape:deskcolor="#505050"
+inkscape:zoom="1.3753227"
+inkscape:cx="127.24287"
+inkscape:cy="99.976537"
+inkscape:window-width="1008"
+inkscape:window-height="752"
+inkscape:window-x="8"
+inkscape:window-y="8"
+inkscape:window-maximized="1"
+inkscape:current-layer="g5" />
+<defs
+id="defs1" />
+<g
+id="layer1">
+<path
+id="rect1"
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+d="M 6.0642293 8.8924805 L 6.0642293 31.296281 L 22.06687 31.296281 L 22.06687 38.252962 C 22.06687 38.260036 22.072715 38.265881 22.079789 38.265881 L 13.4922 38.265881 C 13.485392 38.265881 13.479797 38.271476 13.479797 38.278284 L 13.479797 41.609347 C 13.479797 41.616154 13.485392 41.621749 13.4922 41.621749 L 39.424467 41.621749 C 39.431274 41.621749 39.436869 41.616154 39.436869 41.609347 L 39.436869 38.278284 C 39.436869 38.271476 39.431274 38.265881 39.424467 38.265881 L 30.836877 38.265881 C 30.843951 38.265881 30.849797 38.260036 30.849797 38.252962 L 30.849797 31.296281 L 46.852437 31.296281 L 46.852437 8.8924805 L 6.0642293 8.8924805 z " />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="rect2"
+width="37.837093"
+height="17.175163"
+x="7.5397863"
+y="11.506799"
+ry="0.0097887525" />
+<g
+id="g9"
+transform="matrix(0.49509101,0,0,0.49509101,55.735913,13.059341)"
+style="stroke-width:1.60324;stroke-dasharray:none" />
+<g
+id="g5"
+transform="matrix(0.46500705,0,0,0.46500705,23.246771,11.058939)">
+<g
+id="g11"
+transform="translate(0,2.2759512)">
+<path
+id="path1"
+style="fill:none;stroke:none;stroke-width:2.3181;stroke-linecap:square;stroke-linejoin:bevel"
+d="M -7.1757962,5.3123866 -16.643235,15.592175 v 0.03725 c 0,0.0097 -0.0079,0.01764 -0.01764,0.01764 H -3.2811281 A 13.366095,14.646011 0 0 0 -7.1757962,5.3123866 Z" />
+<path
+id="path2"
+style="fill:none;stroke:none;stroke-width:2.3181;stroke-linecap:square;stroke-linejoin:bevel"
+d="m -19.024678,3.2049723 a 12.235187,13.406809 0 0 0 -11.433411,10.0035237 12.235187,13.406809 0 0 0 8.687325,16.351456 12.235187,13.406809 0 0 0 14.9582601,-9.450586 12.235187,13.406809 0 0 0 0.4221964,-3.504695 H -18.640722 c 0.01023,0 0.0186,-0.0084 0.0186,-0.0186 v -0.03927 L -9.9580483,7.1396157 A 12.235187,13.406809 0 0 0 -15.374772,3.6788451 l -0.197404,-0.057878 a 12.235187,13.406809 0 0 0 -3.452502,-0.4159948 z" />
+</g>
+<g
+id="g10"
+transform="matrix(0.73636262,0,0,0.73636262,83.033911,-1.2666956)"
+style="stroke-width:2.3181;stroke-dasharray:none">
+<rect
+style="fill:none;stroke:#000000;stroke-width:2.3181;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="rect6"
+width="6.0300012"
+height="27.666576"
+x="-102.32389"
+y="18.865602" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:2.3181;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="rect7"
+width="6.4860377"
+height="13.935712"
+x="-91.172432"
+y="32.824486" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:2.3181;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="rect8"
+width="5.893971"
+height="32.937321"
+x="-79.496651"
+y="13.526845" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:2.3181;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="rect9"
+width="6.3060656"
+height="18.677021"
+x="-68.322945"
+y="27.993191" />
+<path
+style="fill:none;stroke:#000000;stroke-width:2.3181;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+d="m -107.82842,7.3727494 0.12387,39.3992736 53.595301,-0.004"
+id="path9" />
+</g>
+</g>
+</g>
+</svg>
+                </div>
+                <p class="card-text">
+                    Analysis from data, bussines, personal finances, reporting,
+grafical visualitation, etc...
+                </p>
+            </div>
+            
+            <div class="card">
+                <h3>Server Management</h3>
+                <div class="im-card">
+                    <svg
+width="200"
+height="200"
+viewBox="0 0 52.916665 52.916666"
+version="1.1"
+id="svg1"
+sodipodi:docname="serv_man.svg"
+inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:svg="http://www.w3.org/2000/svg">
+<sodipodi:namedview
+id="namedview1"
+pagecolor="#505050"
+bordercolor="#ffffff"
+borderopacity="1"
+inkscape:showpageshadow="0"
+inkscape:pageopacity="0"
+inkscape:pagecheckerboard="1"
+inkscape:deskcolor="#505050"
+inkscape:zoom="1.945"
+inkscape:cx="45.244216"
+inkscape:cy="90.745501"
+inkscape:window-width="1008"
+inkscape:window-height="752"
+inkscape:window-x="8"
+inkscape:window-y="8"
+inkscape:window-maximized="1"
+inkscape:current-layer="layer1" />
+<defs
+id="defs1" />
+<g
+id="layer1">
+<path
+id="rect1"
+style="fill:none;stroke:#000000;stroke-width:0.79374998;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+d="M 1.8231761,22.837103 V 41.78629 H 15.358247 v 5.883976 c 0,0.006 0.0049,0.01089 0.01089,0.01089 H 8.10573 c -0.0058,0 -0.01044,0.0048 -0.01044,0.01044 v 2.817422 c 0,0.0058 0.0048,0.01044 0.01044,0.01044 h 21.933573 c 0.0058,0 0.01044,-0.0048 0.01044,-0.01044 v -2.817422 c 0,-0.0058 -0.0048,-0.01044 -0.01044,-0.01044 h -7.263404 c 0.006,0 0.01089,-0.0049 0.01089,-0.01089 V 41.78629 H 36.321934 V 22.837103 Z" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79374998;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="rect2"
+width="32.002701"
+height="14.526794"
+x="3.0712051"
+y="25.0483"
+ry="0.0082793497" />
+<g
+id="g9"
+transform="matrix(0.49509101,0,0,0.49509101,55.735913,13.059341)"
+style="stroke-width:1.60324;stroke-dasharray:none" />
+<path
+id="rect12"
+style="fill:none;stroke:#000000;stroke-width:0.79374998;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+d="m 32.554102,4.1296589 c -0.0052,0 -0.0093,0.00459 -0.0093,0.00982 V 22.702684 h 4.0566 c 0.0052,0 0.0098,0.0041 0.0098,0.0093 v 10.109977 h 13.346472 c 0.0052,0 0.0093,-0.0041 0.0093,-0.0093 V 4.1394774 c 0,-0.00523 -0.0041,-0.00982 -0.0093,-0.00982 z" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79374998;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="rect13"
+width="13.601314"
+height="3.0979581"
+x="34.421207"
+y="8.6688509"
+ry="0.0094321836" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79374998;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="rect14"
+width="13.601314"
+height="3.0979581"
+x="34.356968"
+y="13.21674"
+ry="0.0094321836" />
+<path
+id="rect15"
+style="fill:none;stroke:#000000;stroke-width:0.79374998;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+d="M 34.815962 19.817395 C 34.799447 19.817395 34.786506 19.830335 34.786506 19.84685 L 34.786506 22.836848 L 36.312511 22.836848 C 36.317737 22.836848 36.321813 22.841442 36.321813 22.846667 L 36.321813 29.608011 L 47.771243 29.608011 C 47.787758 29.608011 47.801216 29.594554 47.801216 29.578039 L 47.801216 19.84685 C 47.801216 19.830335 47.787758 19.817395 47.771243 19.817395 L 34.815962 19.817395 z " />
+<path
+id="path16"
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+d="m 16.753473,5.9031292 a 1.967934,2.0060523 0 0 0 -1.83895,1.4966504 1.967934,2.0060523 0 0 0 1.397321,2.4465353 1.967934,2.0060523 0 0 0 0.05807,0.00978 1.7910155,2.4154472 0 0 0 -0.544624,0.4266541 1.7910155,2.4154472 0 0 0 -1.232284,-1.6039244 l -0.02903,-0.010392 A 1.7910155,2.4154472 0 0 0 14.45486,8.64062 1.2446694,1.4324465 0 0 0 13.542872,7.1778949 l -0.02017,-0.0064 A 1.2446694,1.4324465 0 0 0 13.171533,7.1271779 1.2446694,1.4324465 0 0 0 12.00832,8.1959521 1.2446694,1.4324465 0 0 0 12.02574,8.987523 1.5634499,1.9273247 0 0 0 11.38301,8.5486443 l -0.02537,-0.00825 a 1.5634499,1.9273247 0 0 0 -1.9022144,1.378067 1.5634499,1.9273247 0 0 0 1.1103384,2.3505687 1.5634499,1.9273247 0 0 0 1.776297,-0.954775 1.7910155,2.4154472 0 0 0 1.314497,2.027521 1.7910155,2.4154472 0 0 0 1.620429,-0.496947 1.7910155,2.4154472 0 0 0 1.244508,1.609731 1.7910155,2.4154472 0 0 0 2.189809,-1.702641 1.7910155,2.4154472 0 0 0 0.0489,-0.336189 1.5999751,1.2732054 0 0 0 0.804101,0.406177 1.5999751,1.2732054 0 0 0 1.299216,-0.181236 1.5999751,1.2732054 0 0 0 1.155877,1.468532 1.5999751,1.2732054 0 0 0 1.956311,-0.897317 1.5999751,1.2732054 0 0 0 0.0272,-0.569687 1.5634499,1.9273247 0 0 0 1.508264,-1.420854 1.5634499,1.9273247 0 0 0 -1.094141,-2.3618772 l -0.02537,-0.00825 a 1.5634499,1.9273247 0 0 0 -0.834661,0.023533 1.967934,2.0060523 0 0 0 -1.072442,-0.7591747 l -0.03148,-0.00856 a 1.967934,2.0060523 0 0 0 -1.047383,0.02201 1.967934,2.0060523 0 0 0 -1.342308,-1.2961596 l -0.03178,-0.00887 A 1.967934,2.0060523 0 0 0 18.582022,7.0205174 1.967934,2.0060523 0 0 0 17.34057,5.9737488 l -0.03178,-0.00856 a 1.967934,2.0060523 0 0 0 -0.555326,-0.062039 z m -4.349361,3.742389 a 1.2446694,1.4324465 0 0 0 0.170539,0.1396708 1.7910155,2.4154472 0 0 0 -0.07946,0.2105765 1.5634499,1.9273247 0 0 0 -0.09108,-0.3502473 z m 5.371985,0.00795 a 1.967934,2.0060523 0 0 0 1.121342,0.9981748 1.5999751,1.2732054 0 0 0 -0.331299,0.344134 1.7910155,2.4154472 0 0 0 -1.093834,-1.1983592 1.967934,2.0060523 0 0 0 0.303791,-0.1439496 z" />
+<path
+style="fill:#000000;stroke:none;stroke-width:0.898836;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="path25"
+sodipodi:type="arc"
+sodipodi:cx="17.104042"
+sodipodi:cy="16.881636"
+sodipodi:rx="1.3229166"
+sodipodi:ry="1.3229166"
+sodipodi:start="4.9810244"
+sodipodi:end="4.9643247"
+sodipodi:open="true"
+sodipodi:arc-type="arc"
+d="m 17.455165,15.606167 a 1.3229166,1.3229166 0 0 1 0.925801,1.621264 1.3229166,1.3229166 0 0 1 -1.617385,0.932561 1.3229166,1.3229166 0 0 1 -0.939305,-1.613478 1.3229166,1.3229166 0 0 1 1.609541,-0.946033" />
+<path
+style="fill:#000000;stroke:none;stroke-width:0.898836;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="path26"
+sodipodi:type="arc"
+sodipodi:cx="28.217634"
+sodipodi:cy="10.21783"
+sodipodi:rx="1.3229166"
+sodipodi:ry="1.3229166"
+sodipodi:start="4.9810244"
+sodipodi:end="4.9643247"
+sodipodi:open="true"
+sodipodi:arc-type="arc"
+d="m 28.568758,8.9423608 a 1.3229166,1.3229166 0 0 1 0.9258,1.6212642 1.3229166,1.3229166 0 0 1 -1.617385,0.932561 1.3229166,1.3229166 0 0 1 -0.939305,-1.6134775 1.3229166,1.3229166 0 0 1 1.609542,-0.9460332" />
+<path
+style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.79375;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.79375, 0.79375;stroke-dashoffset:0;stroke-opacity:1"
+d="m 17.080757,18.204333 -0.07457,4.235895"
+id="path27"
+inkscape:connector-type="polyline"
+inkscape:connector-curvature="0"
+inkscape:connection-start="#path25" />
+<path
+style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.79374998;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.79374998,0.79374998;stroke-dashoffset:0;stroke-opacity:1"
+d="m 29.539973,10.256314 3.00483,0.08745"
+id="path28"
+inkscape:connector-type="polyline"
+inkscape:connector-curvature="0"
+inkscape:connection-start="#path26" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79374998;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="rect28"
+width="23.104807"
+height="2.5117648"
+x="6.8745551"
+y="25.997982"
+ry="0.0047797868" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79374998;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="rect29"
+width="10.703627"
+height="1.5792334"
+x="4.2172279"
+y="30.579237"
+ry="0.0030052173" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="rect30"
+width="13.52025"
+height="1.5450162"
+x="4.2343364"
+y="33.417992"
+ry="0.0029401034" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79374998;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="rect31"
+width="9.5923052"
+height="1.5942062"
+x="4.2097416"
+y="35.88118"
+ry="0.0030337099" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79374998;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="rect32"
+width="11.447248"
+height="1.5697225"
+x="20.542696"
+y="30.583992"
+ry="0.0029871187" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79374998;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="rect33"
+width="12.565187"
+height="1.5560936"
+x="20.549511"
+y="33.236641"
+ry="0.0029611832" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79374998;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+id="rect34"
+width="4.3156681"
+height="1.6847026"
+x="20.485207"
+y="36.34734"
+ry="0.003205921" />
+<path
+style="fill:none;stroke:#000000;stroke-width:0.79374998;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:0.79374998,0.79374998;stroke-dashoffset:0"
+id="path34"
+sodipodi:type="arc"
+sodipodi:cx="46.989662"
+sodipodi:cy="6.2260532"
+sodipodi:rx="1.0117736"
+sodipodi:ry="1.048143"
+sodipodi:start="4.9810244"
+sodipodi:end="4.9643247"
+sodipodi:open="true"
+sodipodi:arc-type="arc"
+d="M 47.258203,5.2155029 A 1.0117736,1.048143 0 0 1 47.96626,6.5000258 1.0117736,1.048143 0 0 1 46.729276,7.2388912 1.0117736,1.048143 0 0 1 46.01089,5.9605377 1.0117736,1.048143 0 0 1 47.241876,5.2109983" />
+<path
+style="fill:none;stroke:#000000;stroke-width:0.79374998;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:0.79374998,0.79374998;stroke-dashoffset:0"
+id="path35"
+sodipodi:type="arc"
+sodipodi:cx="35.977097"
+sodipodi:cy="10.234397"
+sodipodi:rx="0.60786134"
+sodipodi:ry="0.62971169"
+sodipodi:start="4.9810244"
+sodipodi:end="4.9643247"
+sodipodi:open="true"
+sodipodi:arc-type="arc"
+d="m 36.138433,9.6272705 a 0.60786134,0.62971169 0 0 1 0.425392,0.7717255 0.60786134,0.62971169 0 0 1 -0.743166,0.443902 0.60786134,0.62971169 0 0 1 -0.431597,-0.76802 0.60786134,0.62971169 0 0 1 0.739562,-0.4503138" />
+</g>
+</svg>
+                </div>
+                <p class="card-text">
+                    Managemet of linux servers like, Ubuntu server or Red Had Enterprise.
+                </p>
+            </div>
+            
+            <div class="card">
+                <h3>Database Management</h3>
+                <div class="im-card">
+                    <svg
+width="200"
+height="200"
+viewBox="0 0 52.916665 52.916666"
+version="1.1"
+id="svg1"
+inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+sodipodi:docname="db.svg"
+xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:svg="http://www.w3.org/2000/svg">
+<sodipodi:namedview
+id="namedview1"
+pagecolor="#505050"
+bordercolor="#ffffff"
+borderopacity="1"
+inkscape:showpageshadow="0"
+inkscape:pageopacity="0"
+inkscape:pagecheckerboard="1"
+inkscape:deskcolor="#505050"
+inkscape:document-units="mm"
+inkscape:zoom="2.0062009"
+inkscape:cx="64.549866"
+inkscape:cy="112.89996"
+inkscape:window-width="1008"
+inkscape:window-height="752"
+inkscape:window-x="8"
+inkscape:window-y="8"
+inkscape:window-maximized="1"
+inkscape:current-layer="layer1" />
+<defs
+id="defs1" />
+<g
+inkscape:label="Capa 1"
+inkscape:groupmode="layer"
+id="layer1">
+<g
+id="g1"
+style="stroke-width:0.79375;stroke-dasharray:none">
+<path
+id="path1"
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+d="M 25.031547 9.0681803 A 11.073106 4.9684038 0 0 0 14.421342 12.778031 A 11.073106 4.9684038 0 0 0 14.062708 14.043587 C 14.062127 14.044813 14.060124 14.04472 14.060124 14.046171 L 14.060124 14.061674 L 14.060124 18.260384 C 14.060124 18.262642 14.062972 18.262816 14.064258 18.264518 A 11.073106 4.9684038 0 0 0 22.283394 23.070943 A 11.073106 4.9684038 0 0 0 35.821586 19.568831 A 11.073106 4.9684038 0 0 0 36.205025 18.261418 C 36.205117 18.260873 36.206059 18.260949 36.206059 18.260384 L 36.206059 14.053406 L 36.206059 14.046171 L 36.205542 14.045654 A 11.073106 4.9684038 0 0 0 28.072188 9.246464 L 27.893388 9.2252767 A 11.073106 4.9684038 0 0 0 25.031547 9.0681803 z " />
+<path
+id="path2"
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+d="M 14.198617 19.006592 A 11.073106 4.9684038 0 0 0 14.062708 19.75435 C 14.062127 19.75555 14.060124 19.755434 14.060124 19.756934 L 14.060124 19.772437 L 14.060124 23.971147 C 14.060124 23.973447 14.062958 23.973581 14.064258 23.975281 A 11.073106 4.9684038 0 0 0 22.283394 28.781706 A 11.073106 4.9684038 0 0 0 35.821586 25.279594 A 11.073106 4.9684038 0 0 0 36.205025 23.97218 C 36.205117 23.971635 36.206059 23.971678 36.206059 23.971147 L 36.206059 19.764168 L 36.206059 19.75745 L 36.205542 19.756934 A 11.073106 4.9684038 0 0 0 36.082035 19.011759 A 11.073106 4.9684038 0 0 1 35.821586 19.568831 A 11.073106 4.9684038 0 0 1 22.283394 23.070943 A 11.073106 4.9684038 0 0 1 14.198617 19.006592 z " />
+<path
+id="path3"
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+d="m 14.198617,24.827429 a 11.073106,4.9684038 0 0 0 -0.135909,0.747758 c -5.81e-4,0.0012 -0.0026,0.0011 -0.0026,0.0026 v 0.0155 4.19871 c 0,0.0023 0.0028,0.0024 0.0041,0.0041 a 11.073106,4.9684038 0 0 0 8.219136,4.806425 11.073106,4.9684038 0 0 0 13.538192,-3.502112 11.073106,4.9684038 0 0 0 0.383439,-1.307414 c 9.2e-5,-5.45e-4 0.001,-5.02e-4 0.001,-10e-4 v -4.206979 -0.0067 l -5.17e-4,-5.16e-4 A 11.073106,4.9684038 0 0 0 36.081951,24.832626 11.073106,4.9684038 0 0 1 35.821502,25.389698 11.073106,4.9684038 0 0 1 22.28331,28.89181 11.073106,4.9684038 0 0 1 14.198533,24.827459 Z" />
+<path
+id="path4"
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+d="m 14.198617,30.648266 a 11.073106,4.9684038 0 0 0 -0.135909,0.747758 c -5.81e-4,0.0012 -0.0026,0.0011 -0.0026,0.0026 v 0.0155 4.19871 c 0,0.0023 0.0028,0.0024 0.0041,0.0041 a 11.073106,4.9684038 0 0 0 8.219136,4.806425 11.073106,4.9684038 0 0 0 13.538192,-3.502112 11.073106,4.9684038 0 0 0 0.383439,-1.307414 c 9.2e-5,-5.45e-4 0.001,-5.02e-4 0.001,-10e-4 v -4.206979 -0.0067 l -5.17e-4,-5.16e-4 a 11.073106,4.9684038 0 0 0 -0.123507,-0.745175 11.073106,4.9684038 0 0 1 -0.260449,0.557072 11.073106,4.9684038 0 0 1 -13.538192,3.502112 11.073106,4.9684038 0 0 1 -8.084777,-4.064351 z" />
+<path
+id="path5"
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+d="m 14.198617,36.469103 a 11.073106,4.9684038 0 0 0 -0.135909,0.747758 c -5.81e-4,0.0012 -0.0026,0.0011 -0.0026,0.0026 v 0.0155 4.19871 c 0,0.0023 0.0028,0.0024 0.0041,0.0041 a 11.073106,4.9684038 0 0 0 8.219136,4.806425 11.073106,4.9684038 0 0 0 13.538192,-3.502112 11.073106,4.9684038 0 0 0 0.383439,-1.307414 c 9.2e-5,-5.45e-4 0.001,-5.02e-4 0.001,-10e-4 v -4.206979 -0.0067 l -5.17e-4,-5.16e-4 A 11.073106,4.9684038 0 0 0 36.081951,36.4743 11.073106,4.9684038 0 0 1 35.821502,37.031372 11.073106,4.9684038 0 0 1 22.28331,40.533484 11.073106,4.9684038 0 0 1 14.198533,36.469133 Z" />
+<text
+xml:space="preserve"
+style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.81944px;line-height:1.5;font-family:C059;-inkscape-font-specification:'C059, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+x="18.130451"
+y="19.337814"
+id="text5"><tspan
+sodipodi:role="line"
+id="tspan5"
+style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.81944px;font-family:C059;-inkscape-font-specification:'C059, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.79375;stroke-dasharray:none"
+x="18.130451"
+y="19.337814">DB</tspan></text>
+</g>
+</g>
+</svg>
+                </div>
+                <p class="card-text">
+                    Management of diferents databases, SQL and non SQL,
+postgresql, mysql, firebase, sqlite3, ect...
+                </p>
+            </div>
+            
+            <div class="card">
+                <h3>Technological Asesory</h3>
+                <div class="im-card">
+                    <svg
+width="200"
+height="200"
+viewBox="0 0 52.916665 52.916666"
+version="1.1"
+id="svg1"
+sodipodi:docname="tech_ase.svg"
+inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:svg="http://www.w3.org/2000/svg">
+<sodipodi:namedview
+id="namedview1"
+pagecolor="#505050"
+bordercolor="#ffffff"
+borderopacity="1"
+inkscape:showpageshadow="0"
+inkscape:pageopacity="0"
+inkscape:pagecheckerboard="1"
+inkscape:deskcolor="#505050"
+inkscape:zoom="1.945"
+inkscape:cx="194.85861"
+inkscape:cy="85.089974"
+inkscape:window-width="1008"
+inkscape:window-height="752"
+inkscape:window-x="8"
+inkscape:window-y="8"
+inkscape:window-maximized="1"
+inkscape:current-layer="layer1" />
+<defs
+id="defs1">
+<pattern
+patternUnits="userSpaceOnUse"
+width="74.367813"
+height="101.82905"
+patternTransform="translate(95.624209,38.481951)"
+preserveAspectRatio="xMidYMid"
+id="pattern56">
+<path
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+id="path55"
+sodipodi:type="arc"
+sodipodi:cx="32.168949"
+sodipodi:cy="45.053467"
+sodipodi:rx="30.659498"
+sodipodi:ry="43.556522"
+sodipodi:start="4.9810244"
+sodipodi:end="4.9643247"
+sodipodi:open="true"
+sodipodi:arc-type="arc"
+d="M 40.306472,3.0591437 A 30.659498,43.556522 0 0 1 61.762529,56.438643 30.659498,43.556522 0 0 1 24.278528,87.142854 30.659498,43.556522 0 0 1 2.5094857,34.019729 30.659498,43.556522 0 0 1 39.811719,2.8719497" />
+<path
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+id="path56"
+sodipodi:type="arc"
+sodipodi:cx="50.883656"
+sodipodi:cy="74.911652"
+sodipodi:rx="21.976021"
+sodipodi:ry="25.416748"
+sodipodi:start="4.9810244"
+sodipodi:end="4.9643247"
+sodipodi:open="true"
+sodipodi:arc-type="arc"
+d="M 56.716444,50.406501 A 21.976021,25.416748 0 0 1 72.095651,81.555299 21.976021,25.416748 0 0 1 45.227983,99.472275 21.976021,25.416748 0 0 1 29.624437,68.473081 21.976021,25.416748 0 0 1 56.361817,50.297267" />
+</pattern>
+</defs>
+<g
+id="layer1">
+<path
+id="path58"
+style="fill:none;stroke:#000000;stroke-width:0.614533;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+d="M 26.032519 13.864786 A 12.941372 12.600401 0 0 0 18.372005 16.660998 L 18.372005 35.026802 C 18.372005 35.032027 18.367928 35.03662 18.362703 35.03662 L 16.98966 35.03662 A 12.941372 12.600401 0 0 0 23.127787 38.634333 A 12.941372 12.600401 0 0 0 31.481799 38.038504 L 31.481799 34.621142 C 31.481799 34.615916 31.485875 34.61184 31.4911 34.61184 L 36.310444 34.61184 A 12.941372 12.600401 0 0 0 38.94956 29.752188 A 12.941372 12.600401 0 0 0 37.18791 19.414835 A 6.8005455 2.671947 0 0 1 33.153014 19.484598 A 6.8005455 2.671947 0 0 1 28.105777 16.897159 C 28.105077 16.895959 28.102677 16.896076 28.102677 16.894576 L 28.102677 14.175879 L 28.102677 14.170194 C 28.102677 14.16975 28.103624 14.170153 28.10371 14.169677 A 6.8005455 2.671947 0 0 1 28.133683 13.980025 A 12.941372 12.600401 0 0 0 26.032519 13.864786 z " />
+<g
+id="g9"
+transform="matrix(0.49509101,0,0,0.49509101,55.735913,13.059341)"
+style="stroke-width:1.60324055;stroke-dasharray:none" />
+<g
+id="g54"
+transform="translate(1.5345734,3.1565797)">
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+id="rect48"
+width="10.862109"
+height="21.624599"
+x="5.9754734"
+y="10.255291"
+ry="0.0094321836" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+id="rect49"
+width="8.2010479"
+height="15.849585"
+x="7.3870878"
+y="12.195837"
+ry="0.0083754128" />
+<path
+sodipodi:type="star"
+style="fill:none;stroke:#000000;stroke-width:0.994075;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+id="path49"
+inkscape:flatsided="false"
+sodipodi:sides="3"
+sodipodi:cx="0.99967617"
+sodipodi:cy="25.119753"
+sodipodi:r1="1.4932481"
+sodipodi:r2="0.72566503"
+sodipodi:arg1="-1.0585828"
+sodipodi:arg2="-0.011385253"
+inkscape:rounded="0"
+inkscape:randomized="0"
+d="m 1.7315289,23.818146 -0.00623,1.293345 0.035681,1.292869 -1.11695279,-0.652073 -1.13749717,-0.615533 1.12318748,-0.641274 z"
+inkscape:transform-center-x="0.28826232"
+inkscape:transform-center-y="-0.0068794531"
+transform="matrix(0.78776049,0,0,0.80934727,14.083209,9.6226896)" />
+<path
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+id="path50"
+sodipodi:type="arc"
+sodipodi:cx="10.97651"
+sodipodi:cy="29.96464"
+sodipodi:rx="0.99957037"
+sodipodi:ry="0.94359493"
+sodipodi:start="4.9810244"
+sodipodi:end="4.9643247"
+sodipodi:open="true"
+sodipodi:arc-type="arc"
+d="m 11.241812,29.054888 a 0.99957037,0.94359493 0 0 1 0.699517,1.156397 0.99957037,0.94359493 0 0 1 -1.222065,0.665166 0.99957037,0.94359493 0 0 1 -0.709721,-1.150843 0.99957037,0.94359493 0 0 1 1.216139,-0.674776" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+id="rect50"
+width="5.1029339"
+height="1.8015318"
+x="8.4659061"
+y="14.015779"
+ry="0.0097502666" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+id="rect51"
+width="6.1438432"
+height="1.1153232"
+x="8.4156904"
+y="17.219105"
+ry="0.0060363626" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+id="rect52"
+width="2.3570542"
+height="3.4184763"
+x="8.442462"
+y="19.712776"
+ry="0.018501509" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+id="rect53"
+width="2.2907782"
+height="4.2275901"
+x="11.98239"
+y="19.745916"
+ry="0.022880601" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+id="rect54"
+width="5.7381783"
+height="1.1181899"
+x="8.6051588"
+y="25.508902"
+ry="0.006051877" />
+</g>
+<path
+id="path57"
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+d="M 25.908496 10.192143 A 16.715475 16.275066 0 0 0 16.518371 13.412101 L 18.362703 13.412101 C 18.367928 13.412101 18.372005 13.416177 18.372005 13.421403 L 18.372005 35.026802 C 18.372005 35.032027 18.367928 35.03662 18.362703 35.03662 L 12.29434 35.03662 A 16.715475 16.275066 0 0 0 22.15627 42.185021 A 16.715475 16.275066 0 0 0 31.481799 41.976248 L 31.481799 34.61184 C 31.481799 34.606615 31.485875 34.602022 31.4911 34.602022 L 40.902929 34.602022 A 16.715475 16.275066 0 0 0 42.592748 30.712337 A 16.715475 16.275066 0 0 0 40.848669 18.182869 A 6.8005455 2.671947 0 0 1 33.153014 19.484598 A 6.8005455 2.671947 0 0 1 28.105777 16.897159 C 28.105077 16.895959 28.102677 16.896076 28.102677 16.894576 L 28.102677 14.175879 L 28.102677 14.170194 C 28.102677 14.16975 28.103624 14.170153 28.10371 14.169677 A 6.8005455 2.671947 0 0 1 28.141951 13.925765 A 6.8005455 2.671947 0 0 1 28.141951 13.925248 A 6.8005455 2.671947 0 0 1 28.105777 13.700455 C 28.105077 13.699255 28.102677 13.698855 28.102677 13.697355 L 28.102677 10.978658 L 28.102677 10.97349 C 28.102677 10.973081 28.103624 10.972933 28.10371 10.972457 A 6.8005455 2.671947 0 0 1 28.141951 10.728544 A 6.8005455 2.671947 0 0 1 28.141951 10.728027 A 6.8005455 2.671947 0 0 1 28.105777 10.503235 C 28.105077 10.502035 28.102677 10.502151 28.102677 10.500651 L 28.102677 10.274308 A 16.715475 16.275066 0 0 0 25.908496 10.192143 z " />
+<g
+id="g65"
+style="stroke-width:0.79375;stroke-dasharray:none"
+transform="translate(56.062511,14.623422)">
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+id="rect59"
+width="20.011089"
+height="11.043801"
+x="-24.58086"
+y="19.978809"
+ry="0.0094321836" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+id="rect60"
+width="15.508612"
+height="8.5589552"
+x="-22.32962"
+y="21.221231"
+ry="0.0073099504" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+id="rect61"
+width="2.0728292"
+height="4.4107351"
+x="-15.611731"
+y="30.889284"
+ry="0.0094321836" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+id="rect62"
+width="15.417789"
+height="1.3888177"
+x="-22.284212"
+y="35.653008"
+ry="0.010068526" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+id="rect63"
+width="5.3813248"
+height="1.7516894"
+x="-20.762352"
+y="22.472481"
+ry="0.0094321836" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+id="rect64"
+width="11.216418"
+height="2.4605365"
+x="-20.762352"
+y="24.224171"
+ry="0.0094321836" />
+<rect
+style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+id="rect65"
+width="9.9016466"
+height="1.5838987"
+x="-20.762352"
+y="27.213875"
+ry="0.0094321836" />
+</g>
+<g
+id="g71"
+transform="matrix(0.86310509,0,0,0.86310509,72.163031,-5.6650806)"
+style="stroke-width:0.91964465;stroke-dasharray:none">
+<path
+id="path66"
+style="fill:none;stroke:#000000;stroke-width:0.91964465;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+d="m -43.241804,8.7643227 a 7.8791628,3.0957377 0 0 0 -7.549927,2.3114863 7.8791628,3.0957377 0 0 0 -0.255798,0.7922 c -9.9e-5,5.51e-4 -0.001,4.53e-4 -0.001,10e-4 v 0.0062 3.150195 c 0,0.0017 0.0023,0.0017 0.0031,0.0031 a 7.8791628,3.0957377 0 0 0 5.848222,2.997749 7.8791628,3.0957377 0 0 0 9.633003,-2.182295 7.8791628,3.0957377 0 0 0 0.272852,-0.817521 c 9.6e-5,-5.49e-4 0.001,-4.53e-4 0.001,-10e-4 v -3.155363 a 7.8791628,3.0957377 0 0 0 0,-5.17e-4 7.8791628,3.0957377 0 0 0 0,-5.16e-4 7.8791628,3.0957377 0 0 0 -5.78776,-2.9941327 l -0.127124,-0.012919 a 7.8791628,3.0957377 0 0 0 -2.036568,-0.097669 z" />
+<path
+id="path69"
+style="fill:none;stroke:#000000;stroke-width:0.91964465;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+d="m -51.003087,15.288989 a 7.8791628,3.0957377 0 0 0 -0.04444,0.283187 c -9.9e-5,5.51e-4 -10e-4,4.86e-4 -10e-4,10e-4 v 0.0062 3.150196 c 0,0.0017 0.0023,0.0017 0.0031,0.0031 a 7.8791628,3.0957377 0 0 0 5.848222,2.99775 7.8791628,3.0957377 0 0 0 9.633003,-2.182296 7.8791628,3.0957377 0 0 0 0.272852,-0.817521 c 9.6e-5,-5.49e-4 0.001,-4.86e-4 0.001,-0.001 v -3.155363 a 7.8791628,3.0957377 0 0 0 0,-5.17e-4 7.8791628,3.0957377 0 0 0 0,-5.17e-4 7.8791628,3.0957377 0 0 0 -0.02997,-0.272851 7.8791628,3.0957377 0 0 1 -0.243913,0.543636 7.8791628,3.0957377 0 0 1 -9.633003,2.182295 7.8791628,3.0957377 0 0 1 -5.805847,-2.7373 z" />
+<path
+id="path70"
+style="fill:none;stroke:#000000;stroke-width:0.91964465;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+d="m -51.003087,18.993158 a 7.8791628,3.0957377 0 0 0 -0.04444,0.283187 c -9.9e-5,5.51e-4 -10e-4,4.86e-4 -10e-4,0.001 v 0.0062 3.150196 c 0,0.0017 0.0023,0.0017 0.0031,0.0031 a 7.8791628,3.0957377 0 0 0 5.848222,2.99775 7.8791628,3.0957377 0 0 0 9.633003,-2.182296 7.8791628,3.0957377 0 0 0 0.272852,-0.817521 c 9.6e-5,-5.49e-4 0.001,-4.86e-4 0.001,-0.001 v -3.155362 a 7.8791628,3.0957377 0 0 0 0,-5.17e-4 7.8791628,3.0957377 0 0 0 0,-5.17e-4 7.8791628,3.0957377 0 0 0 -0.02997,-0.272851 7.8791628,3.0957377 0 0 1 -0.243913,0.543636 7.8791628,3.0957377 0 0 1 -9.633003,2.182295 7.8791628,3.0957377 0 0 1 -5.805847,-2.7373 z" />
+<path
+id="path71"
+style="fill:none;stroke:#000000;stroke-width:0.91964465;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+d="m -51.003087,22.697327 a 7.8791628,3.0957377 0 0 0 -0.04444,0.283187 c -9.9e-5,5.51e-4 -10e-4,4.86e-4 -10e-4,0.001 v 0.0062 3.150196 c 0,0.0017 0.0023,0.0017 0.0031,0.0031 a 7.8791628,3.0957377 0 0 0 5.848222,2.99775 7.8791628,3.0957377 0 0 0 9.633003,-2.182296 7.8791628,3.0957377 0 0 0 0.272852,-0.817521 c 9.6e-5,-5.49e-4 0.001,-4.86e-4 0.001,-0.001 v -3.155362 a 7.8791628,3.0957377 0 0 0 0,-5.17e-4 7.8791628,3.0957377 0 0 0 0,-5.17e-4 7.8791628,3.0957377 0 0 0 -0.02997,-0.272851 7.8791628,3.0957377 0 0 1 -0.243913,0.543636 7.8791628,3.0957377 0 0 1 -9.633003,2.182295 7.8791628,3.0957377 0 0 1 -5.805847,-2.7373 z" />
+</g>
+<g
+id="g75"
+transform="matrix(0.86310509,0,0,0.86310509,72.163031,-5.6650806)"
+style="stroke-width:0.919645;stroke-dasharray:none">
+<path
+id="path72"
+style="fill:none;stroke:#000000;stroke-width:0.919645;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+d="m -43.241804,8.7643227 a 7.8791628,3.0957377 0 0 0 -7.549927,2.3114863 7.8791628,3.0957377 0 0 0 -0.255798,0.7922 c -9.9e-5,5.51e-4 -0.001,4.53e-4 -0.001,10e-4 v 0.0062 3.150195 c 0,0.0017 0.0023,0.0017 0.0031,0.0031 a 7.8791628,3.0957377 0 0 0 5.848222,2.997749 7.8791628,3.0957377 0 0 0 9.633003,-2.182295 7.8791628,3.0957377 0 0 0 0.272852,-0.817521 c 9.6e-5,-5.49e-4 0.001,-4.53e-4 0.001,-10e-4 v -3.155363 a 7.8791628,3.0957377 0 0 0 0,-5.17e-4 7.8791628,3.0957377 0 0 0 0,-5.16e-4 7.8791628,3.0957377 0 0 0 -5.78776,-2.9941327 l -0.127124,-0.012919 a 7.8791628,3.0957377 0 0 0 -2.036568,-0.097669 z" />
+<path
+id="path73"
+style="fill:none;stroke:#000000;stroke-width:0.919645;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+d="m -51.003087,15.288989 a 7.8791628,3.0957377 0 0 0 -0.04444,0.283187 c -9.9e-5,5.51e-4 -10e-4,4.86e-4 -10e-4,10e-4 v 0.0062 3.150196 c 0,0.0017 0.0023,0.0017 0.0031,0.0031 a 7.8791628,3.0957377 0 0 0 5.848222,2.99775 7.8791628,3.0957377 0 0 0 9.633003,-2.182296 7.8791628,3.0957377 0 0 0 0.272852,-0.817521 c 9.6e-5,-5.49e-4 0.001,-4.86e-4 0.001,-0.001 v -3.155363 a 7.8791628,3.0957377 0 0 0 0,-5.17e-4 7.8791628,3.0957377 0 0 0 0,-5.17e-4 7.8791628,3.0957377 0 0 0 -0.02997,-0.272851 7.8791628,3.0957377 0 0 1 -0.243913,0.543636 7.8791628,3.0957377 0 0 1 -9.633003,2.182295 7.8791628,3.0957377 0 0 1 -5.805847,-2.7373 z" />
+<path
+id="path74"
+style="fill:none;stroke:#000000;stroke-width:0.919645;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+d="m -51.003087,18.993158 a 7.8791628,3.0957377 0 0 0 -0.04444,0.283187 c -9.9e-5,5.51e-4 -10e-4,4.86e-4 -10e-4,0.001 v 0.0062 3.150196 c 0,0.0017 0.0023,0.0017 0.0031,0.0031 a 7.8791628,3.0957377 0 0 0 5.848222,2.99775 7.8791628,3.0957377 0 0 0 9.633003,-2.182296 7.8791628,3.0957377 0 0 0 0.272852,-0.817521 c 9.6e-5,-5.49e-4 0.001,-4.86e-4 0.001,-0.001 v -3.155362 a 7.8791628,3.0957377 0 0 0 0,-5.17e-4 7.8791628,3.0957377 0 0 0 0,-5.17e-4 7.8791628,3.0957377 0 0 0 -0.02997,-0.272851 7.8791628,3.0957377 0 0 1 -0.243913,0.543636 7.8791628,3.0957377 0 0 1 -9.633003,2.182295 7.8791628,3.0957377 0 0 1 -5.805847,-2.7373 z" />
+<path
+id="path75"
+style="fill:none;stroke:#000000;stroke-width:0.919645;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+d="m -51.003087,22.697327 a 7.8791628,3.0957377 0 0 0 -0.04444,0.283187 c -9.9e-5,5.51e-4 -10e-4,4.86e-4 -10e-4,0.001 v 0.0062 3.150196 c 0,0.0017 0.0023,0.0017 0.0031,0.0031 a 7.8791628,3.0957377 0 0 0 5.848222,2.99775 7.8791628,3.0957377 0 0 0 9.633003,-2.182296 7.8791628,3.0957377 0 0 0 0.272852,-0.817521 c 9.6e-5,-5.49e-4 0.001,-4.86e-4 0.001,-0.001 v -3.155362 a 7.8791628,3.0957377 0 0 0 0,-5.17e-4 7.8791628,3.0957377 0 0 0 0,-5.17e-4 7.8791628,3.0957377 0 0 0 -0.02997,-0.272851 7.8791628,3.0957377 0 0 1 -0.243913,0.543636 7.8791628,3.0957377 0 0 1 -9.633003,2.182295 7.8791628,3.0957377 0 0 1 -5.805847,-2.7373 z" />
+<path
+id="path76"
+style="fill:none;stroke:#000000;stroke-width:0.919645;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0"
+d="m -43.241804,8.7643227 a 7.8791628,3.0957377 0 0 0 -7.549927,2.3114863 7.8791628,3.0957377 0 0 0 -0.255798,0.7922 c -9.9e-5,5.51e-4 -0.001,4.53e-4 -0.001,10e-4 v 0.0062 3.150195 c 0,0.0017 0.0023,0.0017 0.0031,0.0031 a 7.8791628,3.0957377 0 0 0 5.848222,2.997749 7.8791628,3.0957377 0 0 0 9.633003,-2.182295 7.8791628,3.0957377 0 0 0 0.272852,-0.817521 c 9.6e-5,-5.49e-4 0.001,-4.53e-4 0.001,-10e-4 v -3.155363 a 7.8791628,3.0957377 0 0 0 0,-5.17e-4 7.8791628,3.0957377 0 0 0 0,-5.16e-4 7.8791628,3.0957377 0 0 0 -5.78776,-2.9941327 l -0.127124,-0.012919 a 7.8791628,3.0957377 0 0 0 -2.036568,-0.097669 z" />
+</g>
+</g>
+</svg>
+                </div>
+                <p class="card-text">
+                    Asesory from technological topics.
+                </p>
+            </div>
+            
+        </div>
+        
+    </div>
+</section>
+
+<!-- SECTION PORTFOLIO-->
+<section class="portfolio" id="portfolio">
+    <div class="section-contain">
+        <h2>Portfolio</h2>
+        
+        <div class="categories" id="categories">
+            
+            <a href="#">All</a>
+            
+            <a href="#">Web</a>
+            
+            <a href="#">Games</a>
+            
+            <a href="#">Scripts</a>
+            
+            <a href="#">Statistics</a>
+            
+            <a href="#">Apps</a>
+            
+        </div>
+        
+        
+        <div class="projects">
+            <div class="grid" id="grid">
+                
+                <div class="item"
+                    data-categories="web"
+                    data-description="Social web, developed with djando, Bootstrap and HTML"
+                    data-link="<a href='posts/picstory.html'>View more</a>">
+                    <div class="item-contenido">
+                        <img src="posts/img/picstory.png">
+                    </div>
+                </div>
+                
+                <div class="item"
+                    data-categories="apps"
+                    data-description="GUI app that generates curriculums, developed with python."
+                    data-link="<a href='posts/cv_creator.html'>View more</a>">
+                    <div class="item-contenido">
+                        <img src="posts/img/cv_creator.png">
+                    </div>
+                </div>
+                
+                <div class="item"
+                    data-categories="games"
+                    data-description="A simple game, made in godot engine with GDScript language."
+                    data-link="<a href='posts/arkanet.html'>View more</a>">
+                    <div class="item-contenido">
+                        <img src="posts/img/arkanet.png">
+                    </div>
+                </div>
+                
+                <div class="item"
+                    data-categories="statistics"
+                    data-description="A parametric estimation graph, made in jupyter notebooks."
+                    data-link="<a href='posts/estimacion_parametrica.html'>View more</a>">
+                    <div class="item-contenido">
+                        <img src="posts/img/estimacion_parametrica.png">
+                    </div>
+                </div>
+                
+                <div class="item"
+                    data-categories="scripts"
+                    data-description="A simple escript that delaim a randonly poem."
+                    data-link="<a href='posts/poemary.html'>View more</a>">
+                    <div class="item-contenido">
+                        <img src="posts/img/poemary.png">
+                    </div>
+                </div>
+                
+                <div class="item"
+                    data-categories="scripts"
+                    data-description="A simple script that move media files into a directori and compress they."
+                    data-link="<a href='posts/movefiles.html'>View more</a>">
+                    <div class="item-contenido">
+                        <img src="posts/img/movefiles.png">
+                    </div>
+                </div>
+                
+                <div class="item"
+                    data-categories="statistics"
+                    data-description="Simetric data graph, made in jupyter notebooks"
+                    data-link="<a href='posts/datos_simetricos.html'>View more</a>">
+                    <div class="item-contenido">
+                        <img src="posts/img/datos_simetricos.png">
+                    </div>
+                </div>
+                
+                <div class="item"
+                    data-categories="apps"
+                    data-description="A conosole application that simulates a sells app, with database (sql,python)."
+                    data-link="<a href='posts/sells_simulator.html'>View more</a>">
+                    <div class="item-contenido">
+                        <img src="posts/img/sells_simulator.png">
+                    </div>
+                </div>
+                
+                <div class="item"
+                    data-categories="web"
+                    data-description="My personal web and curriculum, with a responsive design, developed with HTML, CSS and Javascript."
+                    data-link="<a href='posts/johan-wa.html'>View more</a>">
+                    <div class="item-contenido">
+                        <img src="posts/img/johan-wa.png">
+                    </div>
+                </div>
+                
+            </div>
+            <div class="grid-overlay" id="grid-overlay">
+                <div class="img-container">
+                    <button id="btn-close-popup"><i class="fa-solid fa-xmark"></i></button>
+                    <img src="" alt="">
+                </div>
+                <p class="description"></p>
+                <p class="postlink"></p>
+            </div>
+        </div>
+        
+    </div>
+</section>
+<!-- SECTION CONTACT -->
+<section class="contact" id="contact">
+    <div class="section-contain">
+        <h2>Contact</h2>
+        <!-- Form -->
+        <form class="form" action="mailto:johandavidgp@gmail.com" method="post" enctype="text/plain">
+            <input type="text" placeholder="Name" name="name">
+            <input type="text" placeholder="Phone" name="phone">
+            <input type="text" placeholder="Email" name="mail">
+            <input type="text" placeholder="Subject" name="subject">
+            <textarea cols="30" rows="10" placeholder="Message" name="message"></textarea>
+            <button type="submit">
+                Send Message
+                <i class="fa-solid fa-paper-plane"></i>
+                <span class="overlay"></span>
+            </button>
+        </form>
+    </div>
+</section>
+
+    </main>
+    <footer>
+        <a href="#home" class="up">
+    <i class="fa-solid fa-angles-up"></i>
+</a>
+
+<div class="social">
+    
+    <a href="" target="_blank">
+        
+    </a>
+    
+    <a href="https://github.com/Johan-Wa" target="_blank">
+        <i class="fa-brands fa-github"></i>
+    </a>
+    
+    <a href="https://wa.me/573507475680" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    
+    <a href="https://public.tableau.com/app/profile/johan.david.wallens/vizzes" target="_blank">
+        <i class="fa-regular fa-chart-bar"></i>
+    </a>
+    
+    <a href="https://www.linkedin.com/in/johan-david-wallens-pati%C3%B1o-a78401152/" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+    </a>
+    
+    <a href="https://t.me/jodral" target="_blank">
+        <i class="fa-brands fa-telegram"></i>
+    </a>
+    
+</div>
+
     </footer>
+    
 </body>
 <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
-<script src="src/scripts.js"></script>
+<script src="src/main.js"></script>
 </html>

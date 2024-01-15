@@ -1,15 +1,19 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;200;300;400;600;800&display=swap');
+
+
 *{
     box-sizing: border-box;
     font-family: 'Work Sans';
     margin: 0;
-    padding: 0;
+    padding: 0
 }
+
 html{
     /* scroll making click in the menu links */
     scroll-behavior: smooth;
-    
 }
+
 /* MENU */
 
 .container-header{
@@ -43,24 +47,25 @@ html{
     color: #fff;
     margin: 0 15px;
     padding: 3px;
-    transition: .5;
+    transition: .5s;
     text-decoration: none;
 }
 .container-header header nav ul li a:hover{
     color: #1CB698;
 }
 .nav-responsive{
-    background-color: #1CB698;
+    background-color: 1CB698;
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
     display: none;
 }
+
 /* SECTION HOME */
 .home{
-    background-image:linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url("../img/fondo.jpg");
+    background-image: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url("img/../img/fondo.jpg");
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -82,7 +87,7 @@ html{
     width: 76%;
     margin: auto;
 }
-.home .banner-contain h1{
+.home .banner-contain h1 {
     margin-top: 25px;
     font-size: 35px;
     font-family: 'Righteous';
@@ -91,6 +96,7 @@ html{
     font-size: 15px;
     font-weight: normal;
 }
+
 .home .banner-contain .social a{
     color: #fff;
     display: inline-block;
@@ -100,16 +106,18 @@ html{
     line-height: 42px;
     margin: 25px 5px;
     font-size: 30px;
-    transition: .3s;
+    transition: .3s
 }
+
 .home .banner-contain .social a:hover{
     color: #1CB698;
 }
+
 /* SECTION ABOUT ME */
 .aboutme{
     background-color: #1e2326;
     color: #fff;
-    padding: 50px 20px;
+    padding: 50px 20px
 }
 .aboutme .section-contain{
     max-width: 1100px;
@@ -121,7 +129,7 @@ html{
     text-align: center;
     padding: 20px 0;
 }
-.aboutme .section-contain p{
+.aboutme .section-contain p {
     font: 18px;
     line-height: 22px;
     margin-bottom: 20px;
@@ -135,7 +143,7 @@ html{
     display: flex;
 }
 .aboutme .row .col{
-    width: 50%;
+    width: 50%
 }
 .aboutme .row .col h3{
     font-size: 28px;
@@ -165,7 +173,7 @@ html{
 }
 .aboutme .row .col .hobbies-container .hobbie{
     width: 100px;
-    height: 100px;
+    height:100px;
     background-color: #252A2E;
     border-radius: 10px;
     margin: 0 15px 15px 0;
@@ -214,7 +222,6 @@ html{
 .aboutme button:hover .overlay{
     width: 100%;
 }
-
 /* SECTION S K I L L S */
 
 .skills{
@@ -232,6 +239,7 @@ html{
     text-align: center;
     padding: 20px 0;
 }
+
 .skills .row{
     display: flex;
 }
@@ -264,7 +272,6 @@ html{
     left: 0;
     height: 8px;
 }
-
 .skills .skill .skill-bar span{
     position: absolute;
     height: 40px;
@@ -277,144 +284,173 @@ html{
     right: -15px;
     font-size: 14px;
 }
+
 /* This will be add by code javascript */
 
-.skills .skill .javascript{
+
+.skills .skill .Python{
     width: 0%;
-    animation: 2s javascript forwards;
+    animation: 2s Python forwards;
 }
-@keyframes javascript {
-    0%{width: 0%;}
-    100%{width: 45%;}
-}
-.skills .skill .python{
-    width: 0%;
-    animation: 2s python forwards;
-}
-@keyframes python {
-    0%{width: 0%;}
-    100%{width: 91%;}
-}
-.skills .skill .htmlcss{
-    width: 0%;
-    animation: 2s htmlcss forwards;
-}
-@keyframes htmlcss {
-    0%{width: 0%;}
-    100%{width: 70%;}
-}
-.skills .skill .godot{
-    width: 0%;
-    animation: 2s godot forwards;
-}
-@keyframes godot {
-    0%{width: 0%;}
-    100%{width: 65%;}
-}
-.skills .skill .inks{
-    width: 0%;
-    animation: 2s inks forwards;
-}
-@keyframes inks {
-    0%{width: 0%;}
-    100%{width: 69%;}
-}
-.skills .skill .kottlin{
-    width: 0%;
-    animation: 2s kottlin forwards;
-}
-@keyframes kottlin {
-    0%{width: 0%;}
-    100%{width: 35%;}
-}
-.skills .skill .tableau{
-    width: 0%;
-    animation: 2s tableau forwards;
-}
-@keyframes tableau {
-    0%{width: 0%;}
-    100%{width: 68%;}
-}
-.skills .skill .git{
-    width: 0%;
-    animation: 2s git forwards;
-}
-@keyframes git {
-    0%{width: 0%;}
-    100%{width: 72%;}
-}.skills .skill .terminal{
-    width: 0%;
-    animation: 2s terminal forwards;
-}
-@keyframes terminal {
-    0%{width: 0%;}
-    100%{width: 95%;}
-}.skills .skill .bash{
-    width: 0%;
-    animation: 2s bash forwards;
-}
-@keyframes bash {
+@keyframes Python{
     0%{width: 0%;}
     100%{width: 90%;}
 }
-.skills .skill .sql{
+
+.skills .skill .Javascript{
     width: 0%;
-    animation: 2s sql forwards;
+    animation: 2s Javascript forwards;
 }
-@keyframes sql {
+@keyframes Javascript{
+    0%{width: 0%;}
+    100%{width: 45%;}
+}
+
+.skills .skill .HtmlCss{
+    width: 0%;
+    animation: 2s HtmlCss forwards;
+}
+@keyframes HtmlCss{
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+
+.skills .skill .Godot{
+    width: 0%;
+    animation: 2s Godot forwards;
+}
+@keyframes Godot{
+    0%{width: 0%;}
+    100%{width: 65%;}
+}
+
+.skills .skill .Inkscape{
+    width: 0%;
+    animation: 2s Inkscape forwards;
+}
+@keyframes Inkscape{
     0%{width: 0%;}
     100%{width: 69%;}
-}.skills .skill .docker{
-    width: 0%;
-    animation: 2s docker forwards;
 }
-@keyframes docker {
+
+.skills .skill .Kotlin{
+    width: 0%;
+    animation: 2s Kotlin forwards;
+}
+@keyframes Kotlin{
+    0%{width: 0%;}
+    100%{width: 35%;}
+}
+
+.skills .skill .Tableu{
+    width: 0%;
+    animation: 2s Tableu forwards;
+}
+@keyframes Tableu{
+    0%{width: 0%;}
+    100%{width: 68%;}
+}
+
+.skills .skill .Git{
+    width: 0%;
+    animation: 2s Git forwards;
+}
+@keyframes Git{
+    0%{width: 0%;}
+    100%{width: 72%;}
+}
+
+.skills .skill .Terminal{
+    width: 0%;
+    animation: 2s Terminal forwards;
+}
+@keyframes Terminal{
+    0%{width: 0%;}
+    100%{width: 95%;}
+}
+
+.skills .skill .Bash{
+    width: 0%;
+    animation: 2s Bash forwards;
+}
+@keyframes Bash{
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+
+.skills .skill .SQL{
+    width: 0%;
+    animation: 2s SQL forwards;
+}
+@keyframes SQL{
+    0%{width: 0%;}
+    100%{width: 69%;}
+}
+
+.skills .skill .Docker{
+    width: 0%;
+    animation: 2s Docker forwards;
+}
+@keyframes Docker{
     0%{width: 0%;}
     100%{width: 50%;}
-}.skills .skill .comunication{
-    width: 0%;
-    animation: 2s comunication forwards;
 }
-@keyframes comunication {
+
+.skills .skill .Comunication{
+    width: 0%;
+    animation: 2s Comunication forwards;
+}
+@keyframes Comunication{
     0%{width: 0%;}
     100%{width: 80%;}
-}.skills .skill .teamwork{
-    width: 0%;
-    animation: 2s teamwork forwards;
 }
-@keyframes teamwork {
+
+.skills .skill .Teamwork{
+    width: 0%;
+    animation: 2s Teamwork forwards;
+}
+@keyframes Teamwork{
     0%{width: 0%;}
     100%{width: 75%;}
-}.skills .skill .creativity{
-    width: 0%;
-    animation: 2s creativity forwards;
 }
-@keyframes creativity {
+
+.skills .skill .Creativity{
+    width: 0%;
+    animation: 2s Creativity forwards;
+}
+@keyframes Creativity{
     0%{width: 0%;}
     100%{width: 98%;}
-}.skills .skill .strategic{
-    width: 0%;
-    animation: 2s strategic forwards;
 }
-@keyframes strategic {
+
+.skills .skill .StrategicThinking{
+    width: 0%;
+    animation: 2s StrategicThinking forwards;
+}
+@keyframes StrategicThinking{
     0%{width: 0%;}
     100%{width: 82%;}
-}.skills .skill .leadership{
-    width: 0%;
-    animation: 2s leadership forwards;
 }
-@keyframes leadership {
+
+.skills .skill .Leadership{
+    width: 0%;
+    animation: 2s Leadership forwards;
+}
+@keyframes Leadership{
     0%{width: 0%;}
     100%{width: 88%;}
 }
-.skills .skill .activelearning{
+
+.skills .skill .ActiveLearning{
     width: 0%;
-    animation: 2s activelearning forwards;
+    animation: 2s ActiveLearning forwards;
 }
-@keyframes activelearning {
+@keyframes ActiveLearning{
     0%{width: 0%;}
     100%{width: 97%;}
 }
+
+
 /* SECTION CV */
 .curriculum{
     background-color: #1e2326;
@@ -461,14 +497,14 @@ html{
     margin-bottom: 18px;
 }
 .curriculum .row .item .school{
-    color: #1CB698;
+    color: 1CB698;
     font-size: 22px;
     font-weight: bold;
     display: block;
 }
 .curriculum .row .item .date{
     display: block;
-    color: #1CB698;
+    color: 1CB698;
     margin-bottom: 10px;
 }
 .curriculum .row .item p{
@@ -520,10 +556,66 @@ html{
     position: relative;
     bottom: 4px;
 }
+/* SECTION SERVICES*/
+.services{
+    background-color: #252A2E;
+    color: #fff;
+    padding: 50px 20px;
+}
+.services .section-contain{
+    width: 90%;
+    max-width:900px;
+    margin: auto;
+}
+.services .section-contain h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.services .section-contain .cards-container{
+    width: 80%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin:auto;
+}
+.card {
+    width: calc(33% - 20px);
+    margin:  10px 10px;
+    padding: 10px 10px;
+    background-color: #1e2326;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.card h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card .im-card{
+    width: 100%;
+}
+.card svg{
+    width:95%;
+}
+
+.card path,rect{
+    stroke: #1CB698 !important;
+}
+.card text{
+    stroke: #1CB698 !important;
+    
+}
+.card tspan{
+    fill: #1CB698 !important;
+}
 
 /* SECTION PORTFOLIO */
 .portfolio{
-    background-color: #252A2E;
+    background-color: #1e2326;
     color: #fff;
     padding: 50px 20px;
 }
@@ -633,10 +725,22 @@ html{
 	right: -20px;
 	top: -20px;
 }
+.grid-overlay .postlink{
+    font-size:16px;
+    font-weight: bold;
+    font-family: Righteous;
+}
+.grid-overlay .postlink a {
+    text-decoration: none;
+    color: #fff;
+}
+.grid-overlay .postlink a:hover{
+    color: #1CB698
+}
 
 /* SECTION CONTACT */
 .contact{
-    background-color: #1e2326;
+    background-color: #252A2E;
     color: #fff;
     padding: 50px 20px;
 }
@@ -708,8 +812,9 @@ html{
 .contact .form button:hover .overlay{
     width: 100%;
 }
+/* SECTION FOOTER */
 footer{
-    background-color: #252A2E;
+    background-color: #1e2326;
     color: #fff;
     padding: 50px 0 30px 0;
     text-align: center;
@@ -756,6 +861,64 @@ footer .up:hover{
     top: -20px;
 }
 
+/* SECTION POSTS */
+.back-sym{
+    display:block;
+    font-size: 30px;
+    text-decoration: none;
+}
+.back-sym a{
+    text-decoration: none;
+    color: #fff;
+}
+.back-sym a:hover{
+    color: #1CB698;
+}
+.post {
+    background-color: #252A2E;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.post .post-contain {
+    padding: 30px;
+    background-color: #1e2326;
+    max-width: 490px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.post .post-contain img {
+    margin-top: 40px;
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+.post .post-contain h1 {
+    margin-top: 25px;
+    font-size: 35px;
+    font-family: 'Righteous';
+}
+.post .post-content {
+    margin: 20px 0;
+    padding: 20px 0;
+    background-color: #252A2E;
+    width: 65%;
+    font-family: Righteous;
+}
+.post .post-content h1,h2{
+    color: #1CB698;
+    text-align: center;
+    margin: 15px 0; 
+    
+}
+.post .post-content h1{
+    font-size: 25px
+}
 /* ------------------------------- RESPONSIVE ---------------------------- */
 
 @media screen and (max-width:980px){
@@ -816,6 +979,9 @@ footer .up:hover{
     .curriculum .row .right{
         margin-left: 20px;
     }
+    .card{
+        width: calc(50% - 20px)
+    }
     .portfolio .section-contain .projects .grid .item{
         width: calc(50% - 20px);
     }
@@ -827,5 +993,10 @@ footer .up:hover{
     }
     .contact .form textarea{
         width: 72%;
+    }
+}
+@media screen and (max-width:500px){
+    .card{
+        width:90%;
     }
 }
